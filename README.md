@@ -6,8 +6,8 @@ This repository contains the online appendix of the Registered Report *"I Feel Y
 ## 📂 Repository Structure
 
 Upon completion of the study, the repository will be organized as follows:
-
-​```
+```
+.
 ├── 🗂️ datasets/
 ├── 💬 prompts/
 ├── ⚙️ data_preparation/
@@ -16,7 +16,7 @@ Upon completion of the study, the repository will be organized as follows:
 ├── 📊 results/
 ├── 📈 analysis/
 └── 📄 README.md
-​```
+```
 
 ### 🗂️ datasets/
 Will contain the datasets used in the study.
