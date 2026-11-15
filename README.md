@@ -51,10 +51,6 @@ Will contain the scripts used to answer the research questions.
 
 The repository contains the selection of the Defects4J bugs described in the *Data Preparation* section of the report.
 
-## ✅ Currently Available
-
-The repository contains the selection of the Defects4J bugs described in the *Data Preparation* section of the report.
-
 In [`data_preparation/bug_selection/`](data_preparation/bug_selection/):
 - `prepare_files.py` — reconstructs the faulty version of each Defects4J bug.
 - `select_bugs.py` — applies the three selection criteria, i.e., (i) the fix modifies a single method, (ii) the file includes at least one candidate incorrect cause, and (iii) the file does not exceed 3,000 lines.
