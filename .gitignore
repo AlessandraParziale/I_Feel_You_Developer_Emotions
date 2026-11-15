@@ -1,9 +1,4 @@
 venv/
-**/fixed/
-**/buggy/
-**/jobs.tsv
-**/selection.json
-
 **/defects4j/*
 !**/defects4j/license.txt
 !**/defects4j/framework/

@@ -1,0 +1,8888 @@
+{
+ "Cli_1": {
+  "project": "Cli",
+  "bug": "1",
+  "lines": 317,
+  "single_method": false
+ },
+ "Cli_2": {
+  "project": "Cli",
+  "bug": "2",
+  "lines": 310,
+  "single_method": true,
+  "faulty": "burstToken",
+  "faulty_ctor": false,
+  "candidates": {
+   "flatten": [
+    "caller"
+   ],
+   "process": [
+    "callee"
+   ]
+  }
+ },
+ "Cli_3": {
+  "project": "Cli",
+  "bug": "3",
+  "lines": 255,
+  "single_method": true,
+  "faulty": "createNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "createValue": [
+    "caller"
+   ]
+  }
+ },
+ "Cli_4": {
+  "project": "Cli",
+  "bug": "4",
+  "lines": 416,
+  "single_method": true,
+  "faulty": "checkRequiredOptions",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "caller"
+   ]
+  }
+ },
+ "Cli_5": {
+  "project": "Cli",
+  "bug": "5",
+  "lines": 67,
+  "single_method": true,
+  "faulty": "stripLeadingHyphens",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Cli_7": {
+  "project": "Cli",
+  "bug": "7",
+  "lines": 203,
+  "single_method": false
+ },
+ "Cli_8": {
+  "project": "Cli",
+  "bug": "8",
+  "lines": 958,
+  "single_method": true,
+  "faulty": "renderWrappedText",
+  "faulty_ctor": false,
+  "candidates": {
+   "printWrapped": [
+    "caller"
+   ],
+   "renderOptions": [
+    "caller"
+   ],
+   "findWrapPos": [
+    "callee"
+   ],
+   "createPadding": [
+    "callee"
+   ],
+   "rtrim": [
+    "callee"
+   ]
+  }
+ },
+ "Cli_9": {
+  "project": "Cli",
+  "bug": "9",
+  "lines": 431,
+  "single_method": true,
+  "faulty": "checkRequiredOptions",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "caller"
+   ]
+  }
+ },
+ "Cli_10": {
+  "project": "Cli",
+  "bug": "10",
+  "lines": 432,
+  "single_method": true,
+  "faulty": "setOptions",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "caller"
+   ]
+  }
+ },
+ "Cli_11": {
+  "project": "Cli",
+  "bug": "11",
+  "lines": 992,
+  "single_method": true,
+  "faulty": "appendOption",
+  "faulty_ctor": false,
+  "candidates": {
+   "printUsage": [
+    "caller"
+   ],
+   "appendOptionGroup": [
+    "caller"
+   ]
+  }
+ },
+ "Cli_12": {
+  "project": "Cli",
+  "bug": "12",
+  "lines": 112,
+  "single_method": true,
+  "faulty": "flatten",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Cli_14": {
+  "project": "Cli",
+  "bug": "14",
+  "lines": 515,
+  "single_method": true,
+  "faulty": "validate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Cli_15": {
+  "project": "Cli",
+  "bug": "15",
+  "lines": 266,
+  "single_method": true,
+  "faulty": "getValues",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Cli_17": {
+  "project": "Cli",
+  "bug": "17",
+  "lines": 312,
+  "single_method": true,
+  "faulty": "burstToken",
+  "faulty_ctor": false,
+  "candidates": {
+   "flatten": [
+    "caller"
+   ],
+   "process": [
+    "callee"
+   ]
+  }
+ },
+ "Cli_18": {
+  "project": "Cli",
+  "bug": "18",
+  "lines": 301,
+  "single_method": false
+ },
+ "Cli_19": {
+  "project": "Cli",
+  "bug": "19",
+  "lines": 298,
+  "single_method": true,
+  "faulty": "processOptionToken",
+  "faulty_ctor": false,
+  "candidates": {
+   "flatten": [
+    "caller"
+   ]
+  }
+ },
+ "Cli_20": {
+  "project": "Cli",
+  "bug": "20",
+  "lines": 298,
+  "single_method": true,
+  "faulty": "flatten",
+  "faulty_ctor": false,
+  "candidates": {
+   "init": [
+    "callee"
+   ],
+   "gobble": [
+    "callee"
+   ],
+   "process": [
+    "callee"
+   ],
+   "processOptionToken": [
+    "callee"
+   ],
+   "burstToken": [
+    "callee"
+   ]
+  }
+ },
+ "Cli_22": {
+  "project": "Cli",
+  "bug": "22",
+  "lines": 273,
+  "single_method": false
+ },
+ "Cli_23": {
+  "project": "Cli",
+  "bug": "23",
+  "lines": 975,
+  "single_method": true,
+  "faulty": "renderWrappedText",
+  "faulty_ctor": false,
+  "candidates": {
+   "printHelp": [
+    "stack"
+   ],
+   "printOptions": [
+    "stack"
+   ],
+   "printWrapped": [
+    "caller"
+   ],
+   "renderOptions": [
+    "caller",
+    "stack"
+   ],
+   "findWrapPos": [
+    "callee"
+   ],
+   "createPadding": [
+    "callee"
+   ],
+   "rtrim": [
+    "callee"
+   ]
+  }
+ },
+ "Cli_24": {
+  "project": "Cli",
+  "bug": "24",
+  "lines": 986,
+  "single_method": true,
+  "faulty": "renderWrappedText",
+  "faulty_ctor": false,
+  "candidates": {
+   "printHelp": [
+    "stack"
+   ],
+   "printOptions": [
+    "stack"
+   ],
+   "printWrapped": [
+    "caller"
+   ],
+   "renderOptions": [
+    "caller",
+    "stack"
+   ],
+   "findWrapPos": [
+    "callee"
+   ],
+   "createPadding": [
+    "callee"
+   ],
+   "rtrim": [
+    "callee"
+   ]
+  }
+ },
+ "Cli_25": {
+  "project": "Cli",
+  "bug": "25",
+  "lines": 985,
+  "single_method": true,
+  "faulty": "renderWrappedText",
+  "faulty_ctor": false,
+  "candidates": {
+   "printWrapped": [
+    "caller"
+   ],
+   "renderOptions": [
+    "caller"
+   ],
+   "findWrapPos": [
+    "callee"
+   ],
+   "createPadding": [
+    "callee"
+   ],
+   "rtrim": [
+    "callee"
+   ]
+  }
+ },
+ "Cli_26": {
+  "project": "Cli",
+  "bug": "26",
+  "lines": 366,
+  "single_method": true,
+  "faulty": "create",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Cli_27": {
+  "project": "Cli",
+  "bug": "27",
+  "lines": 176,
+  "single_method": true,
+  "faulty": "setSelected",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Cli_28": {
+  "project": "Cli",
+  "bug": "28",
+  "lines": 411,
+  "single_method": true,
+  "faulty": "processProperties",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "caller"
+   ]
+  }
+ },
+ "Cli_29": {
+  "project": "Cli",
+  "bug": "29",
+  "lines": 78,
+  "single_method": true,
+  "faulty": "stripLeadingAndTrailingQuotes",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Cli_32": {
+  "project": "Cli",
+  "bug": "32",
+  "lines": 1015,
+  "single_method": true,
+  "faulty": "findWrapPos",
+  "faulty_ctor": false,
+  "candidates": {
+   "renderWrappedText": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Cli_33": {
+  "project": "Cli",
+  "bug": "33",
+  "lines": 1026,
+  "single_method": false
+ },
+ "Cli_35": {
+  "project": "Cli",
+  "bug": "35",
+  "lines": 324,
+  "single_method": true,
+  "faulty": "getMatchingOptions",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Cli_37": {
+  "project": "Cli",
+  "bug": "37",
+  "lines": 697,
+  "single_method": true,
+  "faulty": "isShortOption",
+  "faulty_ctor": false,
+  "candidates": {
+   "isOption": [
+    "caller"
+   ]
+  }
+ },
+ "Cli_38": {
+  "project": "Cli",
+  "bug": "38",
+  "lines": 704,
+  "single_method": true,
+  "faulty": "isShortOption",
+  "faulty_ctor": false,
+  "candidates": {
+   "isOption": [
+    "caller"
+   ]
+  }
+ },
+ "Cli_39": {
+  "project": "Cli",
+  "bug": "39",
+  "lines": 252,
+  "single_method": false
+ },
+ "Cli_40": {
+  "project": "Cli",
+  "bug": "40",
+  "lines": 262,
+  "single_method": true,
+  "faulty": "createValue",
+  "faulty_ctor": false,
+  "candidates": {
+   "createObject": [
+    "callee"
+   ],
+   "createNumber": [
+    "callee"
+   ],
+   "createClass": [
+    "callee"
+   ],
+   "createDate": [
+    "callee"
+   ],
+   "createURL": [
+    "callee"
+   ],
+   "createFile": [
+    "callee"
+   ],
+   "openFile": [
+    "callee"
+   ],
+   "createFiles": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_1": {
+  "project": "Closure",
+  "bug": "1",
+  "lines": 996,
+  "single_method": true,
+  "faulty": "removeUnreferencedFunctionArgs",
+  "faulty_ctor": false,
+  "candidates": {
+   "traverseAndRemoveUnusedReferences": [
+    "caller"
+   ],
+   "getFunctionArgList": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_2": {
+  "project": "Closure",
+  "bug": "2",
+  "lines": 2006,
+  "single_method": true,
+  "faulty": "checkInterfaceConflictProperties",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "stack"
+   ],
+   "processForTesting": [
+    "stack"
+   ],
+   "check": [
+    "stack"
+   ],
+   "visit": [
+    "stack"
+   ],
+   "visitFunction": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Closure_3": {
+  "project": "Closure",
+  "bug": "3",
+  "lines": 534,
+  "single_method": false
+ },
+ "Closure_4": {
+  "project": "Closure",
+  "bug": "4",
+  "lines": 401,
+  "single_method": true,
+  "faulty": "resolveInternal",
+  "faulty_ctor": false,
+  "candidates": {
+   "finishPropertyContinuations": [
+    "callee"
+   ],
+   "resolveViaRegistry": [
+    "callee"
+   ],
+   "resolveViaProperties": [
+    "callee"
+   ],
+   "handleTypeCycle": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_5": {
+  "project": "Closure",
+  "bug": "5",
+  "lines": 470,
+  "single_method": true,
+  "faulty": "isInlinableObject",
+  "faulty_ctor": false,
+  "candidates": {
+   "afterExitScope": [
+    "caller"
+   ],
+   "isVarOrAssignExprLhs": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_6": {
+  "project": "Closure",
+  "bug": "6",
+  "lines": 841,
+  "single_method": false
+ },
+ "Closure_7": {
+  "project": "Closure",
+  "bug": "7",
+  "lines": 715,
+  "single_method": true,
+  "faulty": "caseObjectType",
+  "faulty_ctor": false,
+  "candidates": {
+   "caseParameterizedType": [
+    "caller"
+   ],
+   "caseTemplateType": [
+    "caller"
+   ],
+   "matchesExpectation": [
+    "callee"
+   ],
+   "getNativeType": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_8": {
+  "project": "Closure",
+  "bug": "8",
+  "lines": 247,
+  "single_method": false
+ },
+ "Closure_9": {
+  "project": "Closure",
+  "bug": "9",
+  "lines": 287,
+  "single_method": false
+ },
+ "Closure_10": {
+  "project": "Closure",
+  "bug": "10",
+  "lines": 3230,
+  "single_method": true,
+  "faulty": "mayBeString",
+  "faulty_ctor": false,
+  "candidates": {
+   "allResultsMatch": [
+    "callee"
+   ],
+   "mayBeStringHelper": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_11": {
+  "project": "Closure",
+  "bug": "11",
+  "lines": 1924,
+  "single_method": true,
+  "faulty": "visitGetProp",
+  "faulty_ctor": false,
+  "candidates": {
+   "visit": [
+    "caller"
+   ],
+   "checkPropertyAccess": [
+    "callee"
+   ],
+   "getJSType": [
+    "callee"
+   ],
+   "ensureTyped": [
+    "callee"
+   ],
+   "getNativeType": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_12": {
+  "project": "Closure",
+  "bug": "12",
+  "lines": 297,
+  "single_method": true,
+  "faulty": "hasExceptionHandler",
+  "faulty_ctor": false,
+  "candidates": {
+   "flowThrough": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_13": {
+  "project": "Closure",
+  "bug": "13",
+  "lines": 212,
+  "single_method": true,
+  "faulty": "traverse",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "caller"
+   ],
+   "shouldRetraverse": [
+    "callee"
+   ],
+   "shouldVisit": [
+    "callee"
+   ],
+   "exitNode": [
+    "callee"
+   ],
+   "visit": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_14": {
+  "project": "Closure",
+  "bug": "14",
+  "lines": 1059,
+  "single_method": true,
+  "faulty": "computeFollowNode",
+  "faulty_ctor": false,
+  "candidates": {
+   "computeFallThrough": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_15": {
+  "project": "Closure",
+  "bug": "15",
+  "lines": 499,
+  "single_method": true,
+  "faulty": "apply",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_16": {
+  "project": "Closure",
+  "bug": "16",
+  "lines": 479,
+  "single_method": false
+ },
+ "Closure_17": {
+  "project": "Closure",
+  "bug": "17",
+  "lines": 2023,
+  "single_method": true,
+  "faulty": "getDeclaredType",
+  "faulty_ctor": false,
+  "candidates": {
+   "processObjectLitProperties": [
+    "caller"
+   ],
+   "getDeclaredTypeInAnnotation": [
+    "callee"
+   ],
+   "defineName": [
+    "caller"
+   ],
+   "shouldUseFunctionLiteralType": [
+    "callee"
+   ],
+   "createFunctionTypeFromNodes": [
+    "callee"
+   ],
+   "createEnumTypeFromNodes": [
+    "callee"
+   ],
+   "maybeDeclareQualifiedName": [
+    "caller"
+   ],
+   "maybeCollectMember": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_18": {
+  "project": "Closure",
+  "bug": "18",
+  "lines": 2494,
+  "single_method": true,
+  "faulty": "parseInputs",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "caller"
+   ],
+   "runSanityCheck": [
+    "callee"
+   ],
+   "newTracer": [
+    "callee"
+   ],
+   "stopTracer": [
+    "callee"
+   ],
+   "getTypeRegistry": [
+    "callee"
+   ],
+   "hoistExterns": [
+    "callee"
+   ],
+   "hoistNoCompileFiles": [
+    "callee"
+   ],
+   "repartitionInputs": [
+    "callee"
+   ],
+   "processAMDAndCommonJSModules": [
+    "callee"
+   ],
+   "addChangeHandler": [
+    "callee"
+   ],
+   "report": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_19": {
+  "project": "Closure",
+  "bug": "19",
+  "lines": 708,
+  "single_method": true,
+  "faulty": "declareNameInScope",
+  "faulty_ctor": false,
+  "candidates": {
+   "getNativeType": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_20": {
+  "project": "Closure",
+  "bug": "20",
+  "lines": 1722,
+  "single_method": true,
+  "faulty": "tryFoldSimpleFunctionCall",
+  "faulty_ctor": false,
+  "candidates": {
+   "optimizeSubtree": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_21": {
+  "project": "Closure",
+  "bug": "21",
+  "lines": 214,
+  "single_method": true,
+  "faulty": "visit",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_22": {
+  "project": "Closure",
+  "bug": "22",
+  "lines": 221,
+  "single_method": true,
+  "faulty": "visit",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_23": {
+  "project": "Closure",
+  "bug": "23",
+  "lines": 1537,
+  "single_method": true,
+  "faulty": "tryFoldArrayAccess",
+  "faulty_ctor": false,
+  "candidates": {
+   "tryFoldGetElem": [
+    "caller"
+   ],
+   "isAssignmentTarget": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_24": {
+  "project": "Closure",
+  "bug": "24",
+  "lines": 413,
+  "single_method": true,
+  "faulty": "findAliases",
+  "faulty_ctor": false,
+  "candidates": {
+   "enterScope": [
+    "caller"
+   ],
+   "report": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_25": {
+  "project": "Closure",
+  "bug": "25",
+  "lines": 1401,
+  "single_method": true,
+  "faulty": "traverseNew",
+  "faulty_ctor": false,
+  "candidates": {
+   "traverse": [
+    "callee",
+    "caller"
+   ],
+   "getNativeType": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_26": {
+  "project": "Closure",
+  "bug": "26",
+  "lines": 277,
+  "single_method": false
+ },
+ "Closure_27": {
+  "project": "Closure",
+  "bug": "27",
+  "lines": 583,
+  "single_method": false
+ },
+ "Closure_28": {
+  "project": "Closure",
+  "bug": "28",
+  "lines": 104,
+  "single_method": false
+ },
+ "Closure_29": {
+  "project": "Closure",
+  "bug": "29",
+  "lines": 457,
+  "single_method": true,
+  "faulty": "isInlinableObject",
+  "faulty_ctor": false,
+  "candidates": {
+   "afterExitScope": [
+    "caller"
+   ],
+   "isVarOrAssignExprLhs": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_31": {
+  "project": "Closure",
+  "bug": "31",
+  "lines": 2434,
+  "single_method": true,
+  "faulty": "parseInputs",
+  "faulty_ctor": false,
+  "candidates": {
+   "fillEmptyModules": [
+    "callee"
+   ],
+   "rebuildInputsFromModules": [
+    "callee"
+   ],
+   "parse": [
+    "caller"
+   ],
+   "runSanityCheck": [
+    "callee"
+   ],
+   "newTracer": [
+    "callee"
+   ],
+   "stopTracer": [
+    "callee"
+   ],
+   "getTypeRegistry": [
+    "callee"
+   ],
+   "processAMDAndCommonJSModules": [
+    "callee"
+   ],
+   "addChangeHandler": [
+    "callee"
+   ],
+   "report": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_32": {
+  "project": "Closure",
+  "bug": "32",
+  "lines": 2351,
+  "single_method": true,
+  "faulty": "extractMultilineTextualBlock",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "caller"
+   ],
+   "toString": [
+    "callee"
+   ],
+   "trimEnd": [
+    "callee"
+   ],
+   "next": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_33": {
+  "project": "Closure",
+  "bug": "33",
+  "lines": 582,
+  "single_method": true,
+  "faulty": "matchConstraint",
+  "faulty_ctor": false,
+  "candidates": {
+   "hasProperty": [
+    "callee"
+   ],
+   "isPropertyTypeDeclared": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_35": {
+  "project": "Closure",
+  "bug": "35",
+  "lines": 1414,
+  "single_method": true,
+  "faulty": "inferPropertyTypesToMatchConstraint",
+  "faulty_ctor": false,
+  "candidates": {
+   "traverseReturn": [
+    "caller"
+   ],
+   "updateTypeOfParameters": [
+    "caller"
+   ],
+   "getNativeType": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_36": {
+  "project": "Closure",
+  "bug": "36",
+  "lines": 725,
+  "single_method": true,
+  "faulty": "canInline",
+  "faulty_ctor": false,
+  "candidates": {
+   "inlineNonConstants": [
+    "caller"
+   ],
+   "canMoveAggressively": [
+    "callee"
+   ],
+   "canMoveModerately": [
+    "callee"
+   ],
+   "isValidDeclaration": [
+    "callee"
+   ],
+   "isValidInitialization": [
+    "callee"
+   ],
+   "isValidReference": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_38": {
+  "project": "Closure",
+  "bug": "38",
+  "lines": 301,
+  "single_method": true,
+  "faulty": "addNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "add": [
+    "callee"
+   ],
+   "isNegativeZero": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_39": {
+  "project": "Closure",
+  "bug": "39",
+  "lines": 554,
+  "single_method": true,
+  "faulty": "toStringHelper",
+  "faulty_ctor": false,
+  "candidates": {
+   "getPropertyType": [
+    "callee"
+   ],
+   "getReferenceName": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_40": {
+  "project": "Closure",
+  "bug": "40",
+  "lines": 1805,
+  "single_method": true,
+  "faulty": "visit",
+  "faulty_ctor": false,
+  "candidates": {
+   "recordSet": [
+    "callee"
+   ],
+   "recordPrototypeSet": [
+    "callee"
+   ],
+   "getName": [
+    "callee"
+   ],
+   "createNameInformation": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_41": {
+  "project": "Closure",
+  "bug": "41",
+  "lines": 841,
+  "single_method": false
+ },
+ "Closure_42": {
+  "project": "Closure",
+  "bug": "42",
+  "lines": 1312,
+  "single_method": true,
+  "faulty": "processForInLoop",
+  "faulty_ctor": false,
+  "candidates": {
+   "transformBlock": [
+    "callee"
+   ],
+   "transform": [
+    "callee"
+   ],
+   "newNode": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_43": {
+  "project": "Closure",
+  "bug": "43",
+  "lines": 1954,
+  "single_method": false
+ },
+ "Closure_44": {
+  "project": "Closure",
+  "bug": "44",
+  "lines": 298,
+  "single_method": true,
+  "faulty": "add",
+  "faulty_ctor": false,
+  "candidates": {
+   "addIdentifier": [
+    "caller"
+   ],
+   "listSeparator": [
+    "caller"
+   ],
+   "maybeEndStatement": [
+    "callee"
+   ],
+   "addNumber": [
+    "caller"
+   ],
+   "isWordChar": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_45": {
+  "project": "Closure",
+  "bug": "45",
+  "lines": 975,
+  "single_method": false
+ },
+ "Closure_46": {
+  "project": "Closure",
+  "bug": "46",
+  "lines": 298,
+  "single_method": false
+ },
+ "Closure_48": {
+  "project": "Closure",
+  "bug": "48",
+  "lines": 1919,
+  "single_method": true,
+  "faulty": "maybeDeclareQualifiedName",
+  "faulty_ctor": false,
+  "candidates": {
+   "getNativeType": [
+    "callee"
+   ],
+   "visit": [
+    "caller"
+   ],
+   "defineSlot": [
+    "callee"
+   ],
+   "getDeclaredType": [
+    "callee"
+   ],
+   "getObjectSlot": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_49": {
+  "project": "Closure",
+  "bug": "49",
+  "lines": 589,
+  "single_method": false
+ },
+ "Closure_50": {
+  "project": "Closure",
+  "bug": "50",
+  "lines": 645,
+  "single_method": true,
+  "faulty": "tryFoldArrayJoin",
+  "faulty_ctor": false,
+  "candidates": {
+   "tryFoldKnownMethods": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_51": {
+  "project": "Closure",
+  "bug": "51",
+  "lines": 290,
+  "single_method": true,
+  "faulty": "addNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "add": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_52": {
+  "project": "Closure",
+  "bug": "52",
+  "lines": 1211,
+  "single_method": true,
+  "faulty": "isSimpleNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "getSimpleNumber": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_53": {
+  "project": "Closure",
+  "bug": "53",
+  "lines": 440,
+  "single_method": true,
+  "faulty": "replaceAssignmentExpression",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "stack"
+   ],
+   "afterExitScope": [
+    "stack"
+   ],
+   "blacklistVarReferencesInTree": [
+    "callee"
+   ],
+   "splitObject": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Closure_55": {
+  "project": "Closure",
+  "bug": "55",
+  "lines": 539,
+  "single_method": true,
+  "faulty": "isReduceableFunctionExpression",
+  "faulty_ctor": false,
+  "candidates": {
+   "reduce": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_56": {
+  "project": "Closure",
+  "bug": "56",
+  "lines": 484,
+  "single_method": true,
+  "faulty": "getLine",
+  "faulty_ctor": false,
+  "candidates": {
+   "getCode": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_57": {
+  "project": "Closure",
+  "bug": "57",
+  "lines": 404,
+  "single_method": true,
+  "faulty": "extractClassNameIfGoog",
+  "faulty_ctor": false,
+  "candidates": {
+   "extractClassNameIfProvide": [
+    "caller"
+   ],
+   "extractClassNameIfRequire": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_58": {
+  "project": "Closure",
+  "bug": "58",
+  "lines": 298,
+  "single_method": true,
+  "faulty": "computeGenKill",
+  "faulty_ctor": false,
+  "candidates": {
+   "flowThrough": [
+    "caller",
+    "stack"
+   ],
+   "addToSetIfLocal": [
+    "callee",
+    "stack"
+   ],
+   "markAllParametersEscaped": [
+    "callee"
+   ],
+   "isArgumentsName": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_59": {
+  "project": "Closure",
+  "bug": "59",
+  "lines": 2057,
+  "single_method": true,
+  "faulty": "initOptions",
+  "faulty_ctor": false,
+  "candidates": {
+   "setErrorManager": [
+    "callee"
+   ],
+   "createMessageFormatter": [
+    "callee"
+   ],
+   "initModules": [
+    "caller"
+   ],
+   "initCompilerOptionsIfTesting": [
+    "caller"
+   ],
+   "getErrorManager": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_60": {
+  "project": "Closure",
+  "bug": "60",
+  "lines": 3023,
+  "single_method": false
+ },
+ "Closure_61": {
+  "project": "Closure",
+  "bug": "61",
+  "lines": 3012,
+  "single_method": true,
+  "faulty": "functionCallHasSideEffects",
+  "faulty_ctor": false,
+  "candidates": {
+   "checkForStateChangeHelper": [
+    "caller"
+   ],
+   "evaluatesToLocalValue": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_62": {
+  "project": "Closure",
+  "bug": "62",
+  "lines": 178,
+  "single_method": true,
+  "faulty": "format",
+  "faulty_ctor": false,
+  "candidates": {
+   "formatError": [
+    "caller"
+   ],
+   "formatWarning": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_64": {
+  "project": "Closure",
+  "bug": "64",
+  "lines": 2012,
+  "single_method": false
+ },
+ "Closure_65": {
+  "project": "Closure",
+  "bug": "65",
+  "lines": 1211,
+  "single_method": true,
+  "faulty": "strEscape",
+  "faulty_ctor": false,
+  "candidates": {
+   "jsString": [
+    "caller"
+   ],
+   "regexpEscape": [
+    "caller"
+   ],
+   "escapeToDoubleQuotedJsString": [
+    "caller"
+   ],
+   "appendHexJavaScriptRepresentation": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_66": {
+  "project": "Closure",
+  "bug": "66",
+  "lines": 1925,
+  "single_method": true,
+  "faulty": "visit",
+  "faulty_ctor": false,
+  "candidates": {
+   "checkNoTypeCheckSection": [
+    "callee"
+   ],
+   "report": [
+    "callee"
+   ],
+   "doPercentTypedAccounting": [
+    "callee"
+   ],
+   "visitAssign": [
+    "callee"
+   ],
+   "visitObjLitKey": [
+    "callee"
+   ],
+   "visitName": [
+    "callee"
+   ],
+   "visitGetProp": [
+    "callee"
+   ],
+   "visitGetElem": [
+    "callee"
+   ],
+   "visitVar": [
+    "callee"
+   ],
+   "visitNew": [
+    "callee"
+   ],
+   "visitFunction": [
+    "callee"
+   ],
+   "visitCall": [
+    "callee"
+   ],
+   "visitReturn": [
+    "callee"
+   ],
+   "visitBinaryOperator": [
+    "callee"
+   ],
+   "isReference": [
+    "callee"
+   ],
+   "getJSType": [
+    "callee"
+   ],
+   "ensureTyped": [
+    "callee"
+   ],
+   "getNativeType": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_67": {
+  "project": "Closure",
+  "bug": "67",
+  "lines": 698,
+  "single_method": true,
+  "faulty": "isPrototypePropertyAssign",
+  "faulty_ctor": false,
+  "candidates": {
+   "shouldTraverse": [
+    "caller"
+   ],
+   "visit": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_68": {
+  "project": "Closure",
+  "bug": "68",
+  "lines": 2305,
+  "single_method": false
+ },
+ "Closure_69": {
+  "project": "Closure",
+  "bug": "69",
+  "lines": 1917,
+  "single_method": true,
+  "faulty": "visitCall",
+  "faulty_ctor": false,
+  "candidates": {
+   "report": [
+    "callee"
+   ],
+   "visit": [
+    "caller"
+   ],
+   "visitParameterList": [
+    "callee"
+   ],
+   "getJSType": [
+    "callee"
+   ],
+   "ensureTyped": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_70": {
+  "project": "Closure",
+  "bug": "70",
+  "lines": 1812,
+  "single_method": true,
+  "faulty": "declareArguments",
+  "faulty_ctor": false,
+  "candidates": {
+   "defineSlot": [
+    "callee"
+   ],
+   "handleFunctionInputs": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_71": {
+  "project": "Closure",
+  "bug": "71",
+  "lines": 643,
+  "single_method": true,
+  "faulty": "checkPropertyVisibility",
+  "faulty_ctor": false,
+  "candidates": {
+   "normalizeClassType": [
+    "callee"
+   ],
+   "visit": [
+    "caller"
+   ],
+   "isValidPrivateConstructorAccess": [
+    "callee"
+   ],
+   "dereference": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_73": {
+  "project": "Closure",
+  "bug": "73",
+  "lines": 1194,
+  "single_method": true,
+  "faulty": "strEscape",
+  "faulty_ctor": false,
+  "candidates": {
+   "jsString": [
+    "caller"
+   ],
+   "regexpEscape": [
+    "caller"
+   ],
+   "escapeToDoubleQuotedJsString": [
+    "caller"
+   ],
+   "appendHexJavaScriptRepresentation": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_74": {
+  "project": "Closure",
+  "bug": "74",
+  "lines": 1706,
+  "single_method": false
+ },
+ "Closure_75": {
+  "project": "Closure",
+  "bug": "75",
+  "lines": 2984,
+  "single_method": false
+ },
+ "Closure_76": {
+  "project": "Closure",
+  "bug": "76",
+  "lines": 402,
+  "single_method": false
+ },
+ "Closure_77": {
+  "project": "Closure",
+  "bug": "77",
+  "lines": 1161,
+  "single_method": true,
+  "faulty": "strEscape",
+  "faulty_ctor": false,
+  "candidates": {
+   "jsString": [
+    "caller"
+   ],
+   "regexpEscape": [
+    "caller"
+   ],
+   "escapeToDoubleQuotedJsString": [
+    "caller"
+   ],
+   "appendHexJavaScriptRepresentation": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_78": {
+  "project": "Closure",
+  "bug": "78",
+  "lines": 1631,
+  "single_method": true,
+  "faulty": "performArithmeticOp",
+  "faulty_ctor": false,
+  "candidates": {
+   "tryFoldArithmeticOp": [
+    "caller"
+   ],
+   "tryFoldLeftChildOp": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_80": {
+  "project": "Closure",
+  "bug": "80",
+  "lines": 2972,
+  "single_method": false
+ },
+ "Closure_81": {
+  "project": "Closure",
+  "bug": "81",
+  "lines": 1283,
+  "single_method": true,
+  "faulty": "processFunctionNode",
+  "faulty_ctor": false,
+  "candidates": {
+   "transform": [
+    "callee"
+   ],
+   "position2charno": [
+    "callee"
+   ],
+   "parseDirectives": [
+    "callee"
+   ],
+   "newNode": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_82": {
+  "project": "Closure",
+  "bug": "82",
+  "lines": 1029,
+  "single_method": true,
+  "faulty": "isEmptyType",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_83": {
+  "project": "Closure",
+  "bug": "83",
+  "lines": 625,
+  "single_method": true,
+  "faulty": "parseArguments",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_84": {
+  "project": "Closure",
+  "bug": "84",
+  "lines": 1217,
+  "single_method": false
+ },
+ "Closure_85": {
+  "project": "Closure",
+  "bug": "85",
+  "lines": 237,
+  "single_method": false
+ },
+ "Closure_86": {
+  "project": "Closure",
+  "bug": "86",
+  "lines": 2534,
+  "single_method": true,
+  "faulty": "evaluatesToLocalValue",
+  "faulty_ctor": false,
+  "candidates": {
+   "isImmutableValue": [
+    "callee"
+   ],
+   "isSimpleOperator": [
+    "callee"
+   ],
+   "callHasLocalResult": [
+    "callee"
+   ],
+   "isAssignmentOp": [
+    "callee"
+   ],
+   "isToStringMethodCall": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_87": {
+  "project": "Closure",
+  "bug": "87",
+  "lines": 1086,
+  "single_method": true,
+  "faulty": "isFoldableExpressBlock",
+  "faulty_ctor": false,
+  "candidates": {
+   "tryMinimizeIf": [
+    "caller"
+   ],
+   "getBlockExpression": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_88": {
+  "project": "Closure",
+  "bug": "88",
+  "lines": 349,
+  "single_method": true,
+  "faulty": "isVariableReadBeforeKill",
+  "faulty_ctor": false,
+  "candidates": {
+   "isVariableStillLiveWithinExpression": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_91": {
+  "project": "Closure",
+  "bug": "91",
+  "lines": 195,
+  "single_method": true,
+  "faulty": "shouldTraverse",
+  "faulty_ctor": false,
+  "candidates": {
+   "getFunctionJsDocInfo": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_92": {
+  "project": "Closure",
+  "bug": "92",
+  "lines": 917,
+  "single_method": true,
+  "faulty": "replace",
+  "faulty_ctor": false,
+  "candidates": {
+   "createDeclarationNode": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_94": {
+  "project": "Closure",
+  "bug": "94",
+  "lines": 2323,
+  "single_method": true,
+  "faulty": "isValidDefineValue",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_95": {
+  "project": "Closure",
+  "bug": "95",
+  "lines": 1526,
+  "single_method": true,
+  "faulty": "defineSlot",
+  "faulty_ctor": false,
+  "candidates": {
+   "getNativeType": [
+    "callee"
+   ],
+   "setDeferredType": [
+    "callee"
+   ],
+   "maybeDeclareQualifiedName": [
+    "caller"
+   ],
+   "resolveStubDeclarations": [
+    "caller"
+   ],
+   "checkForTypedef": [
+    "caller"
+   ],
+   "handleFunctionInputs": [
+    "caller"
+   ],
+   "declareArguments": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_96": {
+  "project": "Closure",
+  "bug": "96",
+  "lines": 1721,
+  "single_method": true,
+  "faulty": "visitParameterList",
+  "faulty_ctor": false,
+  "candidates": {
+   "visitNew": [
+    "caller"
+   ],
+   "visitCall": [
+    "caller"
+   ],
+   "getJSType": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_97": {
+  "project": "Closure",
+  "bug": "97",
+  "lines": 1196,
+  "single_method": true,
+  "faulty": "tryFoldShift",
+  "faulty_ctor": false,
+  "candidates": {
+   "tryFoldBinaryOperator": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_98": {
+  "project": "Closure",
+  "bug": "98",
+  "lines": 588,
+  "single_method": false
+ },
+ "Closure_99": {
+  "project": "Closure",
+  "bug": "99",
+  "lines": 185,
+  "single_method": true,
+  "faulty": "shouldTraverse",
+  "faulty_ctor": false,
+  "candidates": {
+   "getFunctionJsDocInfo": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_100": {
+  "project": "Closure",
+  "bug": "100",
+  "lines": 177,
+  "single_method": false
+ },
+ "Closure_101": {
+  "project": "Closure",
+  "bug": "101",
+  "lines": 486,
+  "single_method": true,
+  "faulty": "createOptions",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_102": {
+  "project": "Closure",
+  "bug": "102",
+  "lines": 530,
+  "single_method": true,
+  "faulty": "process",
+  "faulty_ctor": false,
+  "candidates": {
+   "removeDuplicateDeclarations": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_104": {
+  "project": "Closure",
+  "bug": "104",
+  "lines": 499,
+  "single_method": true,
+  "faulty": "meet",
+  "faulty_ctor": false,
+  "candidates": {
+   "isObject": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_105": {
+  "project": "Closure",
+  "bug": "105",
+  "lines": 2024,
+  "single_method": true,
+  "faulty": "tryFoldStringJoin",
+  "faulty_ctor": false,
+  "candidates": {
+   "visit": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_107": {
+  "project": "Closure",
+  "bug": "107",
+  "lines": 1000,
+  "single_method": true,
+  "faulty": "createOptions",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_108": {
+  "project": "Closure",
+  "bug": "108",
+  "lines": 612,
+  "single_method": false
+ },
+ "Closure_109": {
+  "project": "Closure",
+  "bug": "109",
+  "lines": 2580,
+  "single_method": true,
+  "faulty": "parseContextTypeExpression",
+  "faulty_ctor": false,
+  "candidates": {
+   "addTypeWarning": [
+    "stack"
+   ],
+   "parse": [
+    "stack"
+   ],
+   "parseHelperLoop": [
+    "stack"
+   ],
+   "parseAnnotation": [
+    "stack"
+   ],
+   "parseAndRecordTypeNode": [
+    "stack"
+   ],
+   "parseTypeExpressionAnnotation": [
+    "stack"
+   ],
+   "parseTopLevelTypeExpression": [
+    "stack"
+   ],
+   "parseTypeExpression": [
+    "stack"
+   ],
+   "parseBasicTypeExpression": [
+    "stack"
+   ],
+   "parseTypeName": [
+    "callee",
+    "stack"
+   ],
+   "parseFunctionType": [
+    "caller",
+    "stack"
+   ],
+   "reportTypeSyntaxWarning": [
+    "stack"
+   ],
+   "reportGenericTypeSyntaxWarning": [
+    "stack"
+   ]
+  }
+ },
+ "Closure_111": {
+  "project": "Closure",
+  "bug": "111",
+  "lines": 267,
+  "single_method": true,
+  "faulty": "caseTopType",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_112": {
+  "project": "Closure",
+  "bug": "112",
+  "lines": 1607,
+  "single_method": true,
+  "faulty": "inferTemplatedTypesForCall",
+  "faulty_ctor": false,
+  "candidates": {
+   "backwardsInferenceFromCallSite": [
+    "caller"
+   ],
+   "inferTemplateTypesFromParameters": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_113": {
+  "project": "Closure",
+  "bug": "113",
+  "lines": 1234,
+  "single_method": true,
+  "faulty": "processRequireCall",
+  "faulty_ctor": false,
+  "candidates": {
+   "visit": [
+    "caller"
+   ],
+   "verifyLastArgumentIsString": [
+    "callee"
+   ],
+   "maybeAddStringNodeToSymbolTable": [
+    "callee"
+   ],
+   "maybeAddToSymbolTable": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_114": {
+  "project": "Closure",
+  "bug": "114",
+  "lines": 1888,
+  "single_method": true,
+  "faulty": "recordAssignment",
+  "faulty_ctor": false,
+  "candidates": {
+   "visit": [
+    "caller"
+   ],
+   "recordConsumers": [
+    "caller"
+   ],
+   "recordDepScope": [
+    "callee"
+   ],
+   "createNameInformation": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_115": {
+  "project": "Closure",
+  "bug": "115",
+  "lines": 948,
+  "single_method": true,
+  "faulty": "canInlineReferenceDirectly",
+  "faulty_ctor": false,
+  "candidates": {
+   "canInlineReferenceToFunction": [
+    "caller"
+   ],
+   "isDirectCallNodeReplacementPossible": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_116": {
+  "project": "Closure",
+  "bug": "116",
+  "lines": 939,
+  "single_method": true,
+  "faulty": "canInlineReferenceDirectly",
+  "faulty_ctor": false,
+  "candidates": {
+   "canInlineReferenceToFunction": [
+    "caller"
+   ],
+   "isDirectCallNodeReplacementPossible": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_117": {
+  "project": "Closure",
+  "bug": "117",
+  "lines": 850,
+  "single_method": true,
+  "faulty": "getReadableJSTypeName",
+  "faulty_ctor": false,
+  "candidates": {
+   "expectCanAssignToPropertyOf": [
+    "caller"
+   ],
+   "expectArgumentMatchesParameter": [
+    "caller"
+   ],
+   "getJSType": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_118": {
+  "project": "Closure",
+  "bug": "118",
+  "lines": 1134,
+  "single_method": true,
+  "faulty": "handleObjectLit",
+  "faulty_ctor": false,
+  "candidates": {
+   "getProperty": [
+    "callee"
+   ],
+   "visit": [
+    "caller"
+   ],
+   "processProperty": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_119": {
+  "project": "Closure",
+  "bug": "119",
+  "lines": 1360,
+  "single_method": true,
+  "faulty": "collect",
+  "faulty_ctor": false,
+  "candidates": {
+   "isGlobalNameReference": [
+    "callee"
+   ],
+   "isGlobalScope": [
+    "callee"
+   ],
+   "shouldTraverse": [
+    "caller"
+   ],
+   "getNameForObjLitKey": [
+    "callee"
+   ],
+   "getValueType": [
+    "callee"
+   ],
+   "handleSetFromGlobal": [
+    "callee"
+   ],
+   "handleSetFromLocal": [
+    "callee"
+   ],
+   "handleGet": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_120": {
+  "project": "Closure",
+  "bug": "120",
+  "lines": 725,
+  "single_method": true,
+  "faulty": "isAssignedOnceInLifetime",
+  "faulty_ctor": false,
+  "candidates": {
+   "getOneAndOnlyAssignment": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_121": {
+  "project": "Closure",
+  "bug": "121",
+  "lines": 734,
+  "single_method": true,
+  "faulty": "inlineNonConstants",
+  "faulty_ctor": false,
+  "candidates": {
+   "doInlinesForScope": [
+    "caller"
+   ],
+   "isVarInlineForbidden": [
+    "callee"
+   ],
+   "inline": [
+    "callee"
+   ],
+   "inlineWellDefinedVariable": [
+    "callee"
+   ],
+   "canInline": [
+    "callee"
+   ],
+   "isValidDeclaration": [
+    "callee"
+   ],
+   "isValidInitialization": [
+    "callee"
+   ],
+   "isImmutableAndWellDefinedVariable": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_122": {
+  "project": "Closure",
+  "bug": "122",
+  "lines": 1526,
+  "single_method": true,
+  "faulty": "handleBlockComment",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_123": {
+  "project": "Closure",
+  "bug": "123",
+  "lines": 1307,
+  "single_method": true,
+  "faulty": "add",
+  "faulty_ctor": false,
+  "candidates": {
+   "addIdentifier": [
+    "callee"
+   ],
+   "unrollBinaryOperator": [
+    "callee"
+   ],
+   "getSimpleNumber": [
+    "callee"
+   ],
+   "isIndirectEval": [
+    "callee"
+   ],
+   "addNonEmptyStatement": [
+    "callee",
+    "caller"
+   ],
+   "addExpr": [
+    "callee",
+    "caller"
+   ],
+   "addList": [
+    "callee"
+   ],
+   "addArrayList": [
+    "callee"
+   ],
+   "addCaseBody": [
+    "callee"
+   ],
+   "addAllSiblings": [
+    "callee"
+   ],
+   "addJsString": [
+    "callee"
+   ],
+   "regexpEscape": [
+    "callee"
+   ],
+   "getContextForNonEmptyExpression": [
+    "callee"
+   ],
+   "getContextForNoInOperator": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_124": {
+  "project": "Closure",
+  "bug": "124",
+  "lines": 244,
+  "single_method": true,
+  "faulty": "isSafeReplacement",
+  "faulty_ctor": false,
+  "candidates": {
+   "collapseAssignEqualTo": [
+    "caller"
+   ],
+   "isNameAssignedTo": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_125": {
+  "project": "Closure",
+  "bug": "125",
+  "lines": 2120,
+  "single_method": true,
+  "faulty": "visitNew",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "stack"
+   ],
+   "processForTesting": [
+    "stack"
+   ],
+   "check": [
+    "stack"
+   ],
+   "visit": [
+    "caller",
+    "stack"
+   ],
+   "visitParameterList": [
+    "callee"
+   ],
+   "getJSType": [
+    "callee"
+   ],
+   "ensureTyped": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_126": {
+  "project": "Closure",
+  "bug": "126",
+  "lines": 313,
+  "single_method": true,
+  "faulty": "tryMinimizeExits",
+  "faulty_ctor": false,
+  "candidates": {
+   "visit": [
+    "caller"
+   ],
+   "tryMinimizeIfBlockExits": [
+    "callee"
+   ],
+   "matchingExitNode": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_127": {
+  "project": "Closure",
+  "bug": "127",
+  "lines": 251,
+  "single_method": false
+ },
+ "Closure_128": {
+  "project": "Closure",
+  "bug": "128",
+  "lines": 1288,
+  "single_method": true,
+  "faulty": "isSimpleNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "getSimpleNumber": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_129": {
+  "project": "Closure",
+  "bug": "129",
+  "lines": 218,
+  "single_method": true,
+  "faulty": "annotateCalls",
+  "faulty_ctor": false,
+  "candidates": {
+   "visit": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_130": {
+  "project": "Closure",
+  "bug": "130",
+  "lines": 970,
+  "single_method": true,
+  "faulty": "inlineAliases",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "caller"
+   ],
+   "inlineAliasIfPossible": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_131": {
+  "project": "Closure",
+  "bug": "131",
+  "lines": 208,
+  "single_method": true,
+  "faulty": "isJSIdentifier",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_132": {
+  "project": "Closure",
+  "bug": "132",
+  "lines": 1726,
+  "single_method": true,
+  "faulty": "tryMinimizeIf",
+  "faulty_ctor": false,
+  "candidates": {
+   "optimizeSubtree": [
+    "caller"
+   ],
+   "tryRemoveRepeatedStatements": [
+    "callee"
+   ],
+   "isFoldableExpressBlock": [
+    "callee"
+   ],
+   "getBlockExpression": [
+    "callee"
+   ],
+   "isReturnExpressBlock": [
+    "callee"
+   ],
+   "getBlockReturnExpression": [
+    "callee"
+   ],
+   "isVarBlock": [
+    "callee"
+   ],
+   "getBlockVar": [
+    "callee"
+   ],
+   "consumesDanglingElse": [
+    "callee"
+   ],
+   "isLowerPrecedenceInExpression": [
+    "callee"
+   ],
+   "isPropertyAssignmentInExpression": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_133": {
+  "project": "Closure",
+  "bug": "133",
+  "lines": 2453,
+  "single_method": true,
+  "faulty": "getRemainingJSDocLine",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "stack"
+   ],
+   "extractSingleLineBlock": [
+    "caller"
+   ],
+   "extractMultilineTextualBlock": [
+    "caller",
+    "stack"
+   ],
+   "extractBlockComment": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_139": {
+  "project": "Closure",
+  "bug": "139",
+  "lines": 603,
+  "single_method": false
+ },
+ "Closure_140": {
+  "project": "Closure",
+  "bug": "140",
+  "lines": 1696,
+  "single_method": false
+ },
+ "Closure_145": {
+  "project": "Closure",
+  "bug": "145",
+  "lines": 1050,
+  "single_method": true,
+  "faulty": "isOneExactlyFunctionOrDo",
+  "faulty_ctor": false,
+  "candidates": {
+   "addNonEmptyExpression": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_146": {
+  "project": "Closure",
+  "bug": "146",
+  "lines": 941,
+  "single_method": true,
+  "faulty": "getTypesUnderInequality",
+  "faulty_ctor": false,
+  "candidates": {
+   "testForEquality": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_150": {
+  "project": "Closure",
+  "bug": "150",
+  "lines": 1515,
+  "single_method": true,
+  "faulty": "visit",
+  "faulty_ctor": false,
+  "candidates": {
+   "attachLiteralTypes": [
+    "callee"
+   ],
+   "defineCatch": [
+    "callee"
+   ],
+   "defineVar": [
+    "callee"
+   ],
+   "defineDeclaredFunction": [
+    "callee"
+   ],
+   "handleFunctionInputs": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_151": {
+  "project": "Closure",
+  "bug": "151",
+  "lines": 597,
+  "single_method": false
+ },
+ "Closure_152": {
+  "project": "Closure",
+  "bug": "152",
+  "lines": 935,
+  "single_method": true,
+  "faulty": "resolveInternal",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_156": {
+  "project": "Closure",
+  "bug": "156",
+  "lines": 901,
+  "single_method": false
+ },
+ "Closure_159": {
+  "project": "Closure",
+  "bug": "159",
+  "lines": 1102,
+  "single_method": true,
+  "faulty": "findCalledFunctions",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_160": {
+  "project": "Closure",
+  "bug": "160",
+  "lines": 2010,
+  "single_method": true,
+  "faulty": "initOptions",
+  "faulty_ctor": false,
+  "candidates": {
+   "setErrorManager": [
+    "callee"
+   ],
+   "createMessageFormatter": [
+    "callee"
+   ],
+   "initModules": [
+    "caller"
+   ],
+   "initCompilerOptionsIfTesting": [
+    "caller"
+   ],
+   "getErrorManager": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_161": {
+  "project": "Closure",
+  "bug": "161",
+  "lines": 1387,
+  "single_method": true,
+  "faulty": "tryFoldArrayAccess",
+  "faulty_ctor": false,
+  "candidates": {
+   "tryFoldGetElem": [
+    "caller"
+   ]
+  }
+ },
+ "Closure_164": {
+  "project": "Closure",
+  "bug": "164",
+  "lines": 275,
+  "single_method": true,
+  "faulty": "isSubtype",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_166": {
+  "project": "Closure",
+  "bug": "166",
+  "lines": 591,
+  "single_method": true,
+  "faulty": "matchConstraint",
+  "faulty_ctor": false,
+  "candidates": {
+   "matchRecordTypeConstraint": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_168": {
+  "project": "Closure",
+  "bug": "168",
+  "lines": 2051,
+  "single_method": true,
+  "faulty": "visit",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Closure_170": {
+  "project": "Closure",
+  "bug": "170",
+  "lines": 542,
+  "single_method": false
+ },
+ "Closure_172": {
+  "project": "Closure",
+  "bug": "172",
+  "lines": 2165,
+  "single_method": true,
+  "faulty": "isQualifiedNameInferred",
+  "faulty_ctor": false,
+  "candidates": {
+   "maybeDeclareQualifiedName": [
+    "caller"
+   ],
+   "isConstantSymbol": [
+    "callee"
+   ],
+   "getFunctionAnalysisResults": [
+    "callee"
+   ]
+  }
+ },
+ "Closure_175": {
+  "project": "Closure",
+  "bug": "175",
+  "lines": 927,
+  "single_method": false
+ },
+ "Closure_176": {
+  "project": "Closure",
+  "bug": "176",
+  "lines": 1662,
+  "single_method": true,
+  "faulty": "updateScopeForTypeChange",
+  "faulty_ctor": false,
+  "candidates": {
+   "traverseAssign": [
+    "caller"
+   ],
+   "ensurePropertyDefined": [
+    "callee"
+   ],
+   "traverseName": [
+    "caller"
+   ],
+   "traverseAdd": [
+    "caller"
+   ],
+   "redeclareSimpleVar": [
+    "callee"
+   ]
+  }
+ },
+ "Codec_2": {
+  "project": "Codec",
+  "bug": "2",
+  "lines": 897,
+  "single_method": true,
+  "faulty": "encode",
+  "faulty_ctor": false,
+  "candidates": {
+   "resizeBuf": [
+    "callee"
+   ]
+  }
+ },
+ "Codec_3": {
+  "project": "Codec",
+  "bug": "3",
+  "lines": 1106,
+  "single_method": true,
+  "faulty": "handleG",
+  "faulty_ctor": false,
+  "candidates": {
+   "doubleMetaphone": [
+    "caller"
+   ],
+   "handleGH": [
+    "callee"
+   ],
+   "isVowel": [
+    "callee"
+   ],
+   "charAt": [
+    "callee"
+   ],
+   "contains": [
+    "callee"
+   ]
+  }
+ },
+ "Codec_4": {
+  "project": "Codec",
+  "bug": "4",
+  "lines": 1056,
+  "single_method": true,
+  "faulty": "Base64",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Codec_5": {
+  "project": "Codec",
+  "bug": "5",
+  "lines": 1069,
+  "single_method": true,
+  "faulty": "decode",
+  "faulty_ctor": false,
+  "candidates": {
+   "resizeBuffer": [
+    "callee"
+   ]
+  }
+ },
+ "Codec_6": {
+  "project": "Codec",
+  "bug": "6",
+  "lines": 191,
+  "single_method": true,
+  "faulty": "read",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Codec_7": {
+  "project": "Codec",
+  "bug": "7",
+  "lines": 1072,
+  "single_method": true,
+  "faulty": "encodeBase64String",
+  "faulty_ctor": false,
+  "candidates": {
+   "encodeBase64": [
+    "callee"
+   ]
+  }
+ },
+ "Codec_9": {
+  "project": "Codec",
+  "bug": "9",
+  "lines": 1062,
+  "single_method": true,
+  "faulty": "encodeBase64",
+  "faulty_ctor": false,
+  "candidates": {
+   "getEncodeLength": [
+    "callee"
+   ]
+  }
+ },
+ "Codec_10": {
+  "project": "Codec",
+  "bug": "10",
+  "lines": 186,
+  "single_method": true,
+  "faulty": "caverphone",
+  "faulty_ctor": false,
+  "candidates": {
+   "encode": [
+    "caller"
+   ],
+   "isCaverphoneEqual": [
+    "caller"
+   ]
+  }
+ },
+ "Codec_11": {
+  "project": "Codec",
+  "bug": "11",
+  "lines": 432,
+  "single_method": false
+ },
+ "Codec_12": {
+  "project": "Codec",
+  "bug": "12",
+  "lines": 159,
+  "single_method": false
+ },
+ "Codec_15": {
+  "project": "Codec",
+  "bug": "15",
+  "lines": 285,
+  "single_method": true,
+  "faulty": "getMappingCode",
+  "faulty_ctor": false,
+  "candidates": {
+   "map": [
+    "callee"
+   ],
+   "soundex": [
+    "caller"
+   ]
+  }
+ },
+ "Codec_16": {
+  "project": "Codec",
+  "bug": "16",
+  "lines": 540,
+  "single_method": false
+ },
+ "Codec_17": {
+  "project": "Codec",
+  "bug": "17",
+  "lines": 423,
+  "single_method": true,
+  "faulty": "newStringIso8859_1",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Codec_18": {
+  "project": "Codec",
+  "bug": "18",
+  "lines": 422,
+  "single_method": true,
+  "faulty": "equals",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_1": {
+  "project": "Collections",
+  "bug": "1",
+  "lines": 1133,
+  "single_method": false
+ },
+ "Collections_2": {
+  "project": "Collections",
+  "bug": "2",
+  "lines": 1706,
+  "single_method": false
+ },
+ "Collections_3": {
+  "project": "Collections",
+  "bug": "3",
+  "lines": 1211,
+  "single_method": true,
+  "faulty": "removeAll",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_4": {
+  "project": "Collections",
+  "bug": "4",
+  "lines": 440,
+  "single_method": false
+ },
+ "Collections_5": {
+  "project": "Collections",
+  "bug": "5",
+  "lines": 351,
+  "single_method": true,
+  "faulty": "addAll",
+  "faulty_ctor": false,
+  "candidates": {
+   "add": [
+    "callee"
+   ]
+  }
+ },
+ "Collections_6": {
+  "project": "Collections",
+  "bug": "6",
+  "lines": 1140,
+  "single_method": true,
+  "faulty": "remove",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_7": {
+  "project": "Collections",
+  "bug": "7",
+  "lines": 1758,
+  "single_method": false
+ },
+ "Collections_8": {
+  "project": "Collections",
+  "bug": "8",
+  "lines": 317,
+  "single_method": false
+ },
+ "Collections_9": {
+  "project": "Collections",
+  "bug": "9",
+  "lines": 1770,
+  "single_method": true,
+  "faulty": "combine",
+  "faulty_ctor": false,
+  "candidates": {
+   "setProperty": [
+    "callee"
+   ]
+  }
+ },
+ "Collections_10": {
+  "project": "Collections",
+  "bug": "10",
+  "lines": 477,
+  "single_method": false
+ },
+ "Collections_11": {
+  "project": "Collections",
+  "bug": "11",
+  "lines": 276,
+  "single_method": false
+ },
+ "Collections_12": {
+  "project": "Collections",
+  "bug": "12",
+  "lines": 1777,
+  "single_method": true,
+  "faulty": "combine",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_13": {
+  "project": "Collections",
+  "bug": "13",
+  "lines": 1782,
+  "single_method": true,
+  "faulty": "convertProperties",
+  "faulty_ctor": false,
+  "candidates": {
+   "addProperty": [
+    "stack"
+   ],
+   "addPropertyInternal": [
+    "stack"
+   ],
+   "setProperty": [
+    "stack"
+   ]
+  }
+ },
+ "Collections_14": {
+  "project": "Collections",
+  "bug": "14",
+  "lines": 154,
+  "single_method": true,
+  "faulty": "convertKey",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_15": {
+  "project": "Collections",
+  "bug": "15",
+  "lines": 357,
+  "single_method": true,
+  "faulty": "set",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_16": {
+  "project": "Collections",
+  "bug": "16",
+  "lines": 357,
+  "single_method": true,
+  "faulty": "subList",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_17": {
+  "project": "Collections",
+  "bug": "17",
+  "lines": 122,
+  "single_method": false
+ },
+ "Collections_18": {
+  "project": "Collections",
+  "bug": "18",
+  "lines": 400,
+  "single_method": true,
+  "faulty": "retainAll",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_19": {
+  "project": "Collections",
+  "bug": "19",
+  "lines": 432,
+  "single_method": true,
+  "faulty": "set",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_20": {
+  "project": "Collections",
+  "bug": "20",
+  "lines": 937,
+  "single_method": true,
+  "faulty": "remove",
+  "faulty_ctor": false,
+  "candidates": {
+   "checkModCount": [
+    "callee"
+   ]
+  }
+ },
+ "Collections_21": {
+  "project": "Collections",
+  "bug": "21",
+  "lines": 440,
+  "single_method": true,
+  "faulty": "subList",
+  "faulty_ctor": false,
+  "candidates": {
+   "createSetBasedOnList": [
+    "callee"
+   ]
+  }
+ },
+ "Collections_22": {
+  "project": "Collections",
+  "bug": "22",
+  "lines": 779,
+  "single_method": true,
+  "faulty": "putAll",
+  "faulty_ctor": false,
+  "candidates": {
+   "indexOf": [
+    "callee"
+   ],
+   "put": [
+    "callee",
+    "stack"
+   ]
+  }
+ },
+ "Collections_23": {
+  "project": "Collections",
+  "bug": "23",
+  "lines": 183,
+  "single_method": true,
+  "faulty": "unmodifiableTrie",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Collections_24": {
+  "project": "Collections",
+  "bug": "24",
+  "lines": 158,
+  "single_method": false
+ },
+ "Collections_25": {
+  "project": "Collections",
+  "bug": "25",
+  "lines": 1500,
+  "single_method": false
+ },
+ "Collections_26": {
+  "project": "Collections",
+  "bug": "26",
+  "lines": 282,
+  "single_method": true,
+  "faulty": "readResolve",
+  "faulty_ctor": false,
+  "candidates": {
+   "calculateHashCode": [
+    "callee"
+   ]
+  }
+ },
+ "Collections_27": {
+  "project": "Collections",
+  "bug": "27",
+  "lines": 571,
+  "single_method": false
+ },
+ "Collections_28": {
+  "project": "Collections",
+  "bug": "28",
+  "lines": 2442,
+  "single_method": false
+ },
+ "Compress_1": {
+  "project": "Compress",
+  "bug": "1",
+  "lines": 414,
+  "single_method": true,
+  "faulty": "close",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_2": {
+  "project": "Compress",
+  "bug": "2",
+  "lines": 183,
+  "single_method": false
+ },
+ "Compress_3": {
+  "project": "Compress",
+  "bug": "3",
+  "lines": 320,
+  "single_method": false
+ },
+ "Compress_5": {
+  "project": "Compress",
+  "bug": "5",
+  "lines": 347,
+  "single_method": true,
+  "faulty": "read",
+  "faulty_ctor": false,
+  "candidates": {
+   "skip": [
+    "caller"
+   ],
+   "fill": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_6": {
+  "project": "Compress",
+  "bug": "6",
+  "lines": 472,
+  "single_method": false
+ },
+ "Compress_7": {
+  "project": "Compress",
+  "bug": "7",
+  "lines": 262,
+  "single_method": true,
+  "faulty": "parseName",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_8": {
+  "project": "Compress",
+  "bug": "8",
+  "lines": 278,
+  "single_method": true,
+  "faulty": "parseOctal",
+  "faulty_ctor": false,
+  "candidates": {
+   "exceptionMessage": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_9": {
+  "project": "Compress",
+  "bug": "9",
+  "lines": 360,
+  "single_method": false
+ },
+ "Compress_10": {
+  "project": "Compress",
+  "bug": "10",
+  "lines": 966,
+  "single_method": true,
+  "faulty": "resolveLocalFileHeaderData",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_11": {
+  "project": "Compress",
+  "bug": "11",
+  "lines": 256,
+  "single_method": true,
+  "faulty": "createArchiveInputStream",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_12": {
+  "project": "Compress",
+  "bug": "12",
+  "lines": 557,
+  "single_method": true,
+  "faulty": "getNextTarEntry",
+  "faulty_ctor": false,
+  "candidates": {
+   "skip": [
+    "callee"
+   ],
+   "getRecord": [
+    "callee"
+   ],
+   "paxHeaders": [
+    "callee"
+   ],
+   "readGNUSparse": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_13": {
+  "project": "Compress",
+  "bug": "13",
+  "lines": 686,
+  "single_method": true,
+  "faulty": "setName",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_14": {
+  "project": "Compress",
+  "bug": "14",
+  "lines": 395,
+  "single_method": true,
+  "faulty": "parseOctal",
+  "faulty_ctor": false,
+  "candidates": {
+   "parseOctalOrBinary": [
+    "caller"
+   ],
+   "exceptionMessage": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_15": {
+  "project": "Compress",
+  "bug": "15",
+  "lines": 690,
+  "single_method": true,
+  "faulty": "equals",
+  "faulty_ctor": false,
+  "candidates": {
+   "getLocalFileDataExtra": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_16": {
+  "project": "Compress",
+  "bug": "16",
+  "lines": 260,
+  "single_method": true,
+  "faulty": "createArchiveInputStream",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_17": {
+  "project": "Compress",
+  "bug": "17",
+  "lines": 624,
+  "single_method": true,
+  "faulty": "parseOctal",
+  "faulty_ctor": false,
+  "candidates": {
+   "parseOctalOrBinary": [
+    "caller"
+   ],
+   "exceptionMessage": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_18": {
+  "project": "Compress",
+  "bug": "18",
+  "lines": 582,
+  "single_method": true,
+  "faulty": "writePaxHeaders",
+  "faulty_ctor": false,
+  "candidates": {
+   "putArchiveEntry": [
+    "callee",
+    "caller",
+    "stack"
+   ],
+   "closeArchiveEntry": [
+    "callee"
+   ],
+   "write": [
+    "stack"
+   ],
+   "stripTo7Bits": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_19": {
+  "project": "Compress",
+  "bug": "19",
+  "lines": 358,
+  "single_method": true,
+  "faulty": "reparseCentralDirectoryData",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_20": {
+  "project": "Compress",
+  "bug": "20",
+  "lines": 526,
+  "single_method": false
+ },
+ "Compress_21": {
+  "project": "Compress",
+  "bug": "21",
+  "lines": 683,
+  "single_method": true,
+  "faulty": "writeBits",
+  "faulty_ctor": false,
+  "candidates": {
+   "writeFileEmptyStreams": [
+    "caller"
+   ],
+   "writeFileEmptyFiles": [
+    "caller"
+   ],
+   "writeFileAntiItems": [
+    "caller"
+   ],
+   "writeFileCTimes": [
+    "caller"
+   ],
+   "writeFileATimes": [
+    "caller"
+   ],
+   "writeFileMTimes": [
+    "caller"
+   ],
+   "writeFileWindowsAttributes": [
+    "caller"
+   ]
+  }
+ },
+ "Compress_22": {
+  "project": "Compress",
+  "bug": "22",
+  "lines": 1048,
+  "single_method": false
+ },
+ "Compress_23": {
+  "project": "Compress",
+  "bug": "23",
+  "lines": 279,
+  "single_method": true,
+  "faulty": "decode",
+  "faulty_ctor": false,
+  "candidates": {
+   "addDecoder": [
+    "stack"
+   ]
+  }
+ },
+ "Compress_24": {
+  "project": "Compress",
+  "bug": "24",
+  "lines": 634,
+  "single_method": true,
+  "faulty": "parseOctal",
+  "faulty_ctor": false,
+  "candidates": {
+   "parseOctalOrBinary": [
+    "caller"
+   ],
+   "exceptionMessage": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_25": {
+  "project": "Compress",
+  "bug": "25",
+  "lines": 1074,
+  "single_method": true,
+  "faulty": "ZipArchiveInputStream",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Compress_26": {
+  "project": "Compress",
+  "bug": "26",
+  "lines": 193,
+  "single_method": true,
+  "faulty": "skip",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_27": {
+  "project": "Compress",
+  "bug": "27",
+  "lines": 631,
+  "single_method": true,
+  "faulty": "parseOctal",
+  "faulty_ctor": false,
+  "candidates": {
+   "parseOctalOrBinary": [
+    "caller"
+   ],
+   "exceptionMessage": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_28": {
+  "project": "Compress",
+  "bug": "28",
+  "lines": 690,
+  "single_method": true,
+  "faulty": "read",
+  "faulty_ctor": false,
+  "candidates": {
+   "available": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_30": {
+  "project": "Compress",
+  "bug": "30",
+  "lines": 1036,
+  "single_method": true,
+  "faulty": "read",
+  "faulty_ctor": false,
+  "candidates": {
+   "read0": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_31": {
+  "project": "Compress",
+  "bug": "31",
+  "lines": 629,
+  "single_method": true,
+  "faulty": "parseOctal",
+  "faulty_ctor": false,
+  "candidates": {
+   "parseOctalOrBinary": [
+    "caller"
+   ],
+   "exceptionMessage": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_32": {
+  "project": "Compress",
+  "bug": "32",
+  "lines": 725,
+  "single_method": true,
+  "faulty": "applyPaxHeadersToCurrentEntry",
+  "faulty_ctor": false,
+  "candidates": {
+   "getNextTarEntry": [
+    "stack"
+   ],
+   "paxHeaders": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Compress_34": {
+  "project": "Compress",
+  "bug": "34",
+  "lines": 346,
+  "single_method": false
+ },
+ "Compress_35": {
+  "project": "Compress",
+  "bug": "35",
+  "lines": 616,
+  "single_method": true,
+  "faulty": "verifyCheckSum",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_36": {
+  "project": "Compress",
+  "bug": "36",
+  "lines": 1012,
+  "single_method": true,
+  "faulty": "getCurrentStream",
+  "faulty_ctor": false,
+  "candidates": {
+   "read": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Compress_37": {
+  "project": "Compress",
+  "bug": "37",
+  "lines": 765,
+  "single_method": true,
+  "faulty": "parsePaxHeaders",
+  "faulty_ctor": false,
+  "candidates": {
+   "getNextTarEntry": [
+    "stack"
+   ],
+   "readGlobalPaxHeaders": [
+    "caller"
+   ],
+   "paxHeaders": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Compress_38": {
+  "project": "Compress",
+  "bug": "38",
+  "lines": 1254,
+  "single_method": true,
+  "faulty": "isDirectory",
+  "faulty_ctor": false,
+  "candidates": {
+   "parseTarHeader": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Compress_39": {
+  "project": "Compress",
+  "bug": "39",
+  "lines": 291,
+  "single_method": false
+ },
+ "Compress_40": {
+  "project": "Compress",
+  "bug": "40",
+  "lines": 111,
+  "single_method": true,
+  "faulty": "readBits",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Compress_41": {
+  "project": "Compress",
+  "bug": "41",
+  "lines": 1130,
+  "single_method": true,
+  "faulty": "getNextZipEntry",
+  "faulty_ctor": false,
+  "candidates": {
+   "readFirstLocalFileHeader": [
+    "callee"
+   ],
+   "processZip64Extra": [
+    "callee"
+   ],
+   "closeEntry": [
+    "callee"
+   ],
+   "readFully": [
+    "callee"
+   ],
+   "skipRemainderOfArchive": [
+    "callee"
+   ]
+  }
+ },
+ "Compress_43": {
+  "project": "Compress",
+  "bug": "43",
+  "lines": 1687,
+  "single_method": false
+ },
+ "Compress_44": {
+  "project": "Compress",
+  "bug": "44",
+  "lines": 100,
+  "single_method": true,
+  "faulty": "ChecksumCalculatingInputStream",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Compress_45": {
+  "project": "Compress",
+  "bug": "45",
+  "lines": 617,
+  "single_method": true,
+  "faulty": "formatLongOctalOrBinaryBytes",
+  "faulty_ctor": false,
+  "candidates": {
+   "formatLongOctalBytes": [
+    "callee"
+   ],
+   "formatLongBinary": [
+    "callee"
+   ],
+   "formatBigIntegerBinary": [
+    "callee",
+    "stack"
+   ]
+  }
+ },
+ "Compress_46": {
+  "project": "Compress",
+  "bug": "46",
+  "lines": 601,
+  "single_method": true,
+  "faulty": "unixTimeToZipLong",
+  "faulty_ctor": false,
+  "candidates": {
+   "dateToZipLong": [
+    "caller"
+   ]
+  }
+ },
+ "Compress_47": {
+  "project": "Compress",
+  "bug": "47",
+  "lines": 1165,
+  "single_method": false
+ },
+ "Csv_1": {
+  "project": "Csv",
+  "bug": "1",
+  "lines": 162,
+  "single_method": true,
+  "faulty": "read",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Csv_2": {
+  "project": "Csv",
+  "bug": "2",
+  "lines": 168,
+  "single_method": true,
+  "faulty": "get",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Csv_3": {
+  "project": "Csv",
+  "bug": "3",
+  "lines": 182,
+  "single_method": true,
+  "faulty": "readEscape",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Csv_4": {
+  "project": "Csv",
+  "bug": "4",
+  "lines": 464,
+  "single_method": true,
+  "faulty": "getHeaderMap",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Csv_5": {
+  "project": "Csv",
+  "bug": "5",
+  "lines": 429,
+  "single_method": true,
+  "faulty": "println",
+  "faulty_ctor": false,
+  "candidates": {
+   "printComment": [
+    "caller"
+   ],
+   "printRecord": [
+    "caller"
+   ],
+   "printRecords": [
+    "caller"
+   ]
+  }
+ },
+ "Csv_6": {
+  "project": "Csv",
+  "bug": "6",
+  "lines": 226,
+  "single_method": true,
+  "faulty": "putIn",
+  "faulty_ctor": false,
+  "candidates": {
+   "toMap": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Csv_7": {
+  "project": "Csv",
+  "bug": "7",
+  "lines": 490,
+  "single_method": true,
+  "faulty": "initializeHeader",
+  "faulty_ctor": false,
+  "candidates": {
+   "nextRecord": [
+    "callee"
+   ]
+  }
+ },
+ "Csv_8": {
+  "project": "Csv",
+  "bug": "8",
+  "lines": 905,
+  "single_method": false
+ },
+ "Csv_9": {
+  "project": "Csv",
+  "bug": "9",
+  "lines": 228,
+  "single_method": true,
+  "faulty": "putIn",
+  "faulty_ctor": false,
+  "candidates": {
+   "toMap": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Csv_10": {
+  "project": "Csv",
+  "bug": "10",
+  "lines": 441,
+  "single_method": true,
+  "faulty": "CSVPrinter",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Csv_11": {
+  "project": "Csv",
+  "bug": "11",
+  "lines": 508,
+  "single_method": true,
+  "faulty": "initializeHeader",
+  "faulty_ctor": false,
+  "candidates": {
+   "nextRecord": [
+    "callee"
+   ]
+  }
+ },
+ "Csv_12": {
+  "project": "Csv",
+  "bug": "12",
+  "lines": 1011,
+  "single_method": false
+ },
+ "Csv_14": {
+  "project": "Csv",
+  "bug": "14",
+  "lines": 1815,
+  "single_method": true,
+  "faulty": "printAndQuote",
+  "faulty_ctor": false,
+  "candidates": {
+   "print": [
+    "caller"
+   ],
+   "printAndEscape": [
+    "callee"
+   ]
+  }
+ },
+ "Csv_15": {
+  "project": "Csv",
+  "bug": "15",
+  "lines": 1980,
+  "single_method": true,
+  "faulty": "printAndQuote",
+  "faulty_ctor": false,
+  "candidates": {
+   "print": [
+    "caller"
+   ],
+   "printAndEscape": [
+    "callee"
+   ]
+  }
+ },
+ "Csv_16": {
+  "project": "Csv",
+  "bug": "16",
+  "lines": 626,
+  "single_method": false
+ },
+ "Gson_1": {
+  "project": "Gson",
+  "bug": "1",
+  "lines": 136,
+  "single_method": false
+ },
+ "Gson_2": {
+  "project": "Gson",
+  "bug": "2",
+  "lines": 842,
+  "single_method": true,
+  "faulty": "create",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Gson_3": {
+  "project": "Gson",
+  "bug": "3",
+  "lines": 221,
+  "single_method": true,
+  "faulty": "newDefaultImplementationConstructor",
+  "faulty_ctor": false,
+  "candidates": {
+   "get": [
+    "caller"
+   ]
+  }
+ },
+ "Gson_5": {
+  "project": "Gson",
+  "bug": "5",
+  "lines": 352,
+  "single_method": true,
+  "faulty": "parse",
+  "faulty_ctor": false,
+  "candidates": {
+   "checkOffset": [
+    "callee"
+   ],
+   "parseInt": [
+    "callee"
+   ],
+   "indexOfNonDigit": [
+    "callee"
+   ]
+  }
+ },
+ "Gson_6": {
+  "project": "Gson",
+  "bug": "6",
+  "lines": 71,
+  "single_method": true,
+  "faulty": "getTypeAdapter",
+  "faulty_ctor": false,
+  "candidates": {
+   "create": [
+    "callee",
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Gson_7": {
+  "project": "Gson",
+  "bug": "7",
+  "lines": 1618,
+  "single_method": false
+ },
+ "Gson_8": {
+  "project": "Gson",
+  "bug": "8",
+  "lines": 111,
+  "single_method": false
+ },
+ "Gson_10": {
+  "project": "Gson",
+  "bug": "10",
+  "lines": 252,
+  "single_method": true,
+  "faulty": "write",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Gson_11": {
+  "project": "Gson",
+  "bug": "11",
+  "lines": 925,
+  "single_method": true,
+  "faulty": "read",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Gson_12": {
+  "project": "Gson",
+  "bug": "12",
+  "lines": 317,
+  "single_method": true,
+  "faulty": "skipValue",
+  "faulty_ctor": false,
+  "candidates": {
+   "peek": [
+    "callee"
+   ],
+   "popStack": [
+    "callee"
+   ],
+   "nextName": [
+    "callee"
+   ]
+  }
+ },
+ "Gson_13": {
+  "project": "Gson",
+  "bug": "13",
+  "lines": 1623,
+  "single_method": true,
+  "faulty": "peekNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "doPeek": [
+    "caller"
+   ],
+   "isLiteral": [
+    "callee"
+   ],
+   "fillBuffer": [
+    "callee"
+   ]
+  }
+ },
+ "Gson_14": {
+  "project": "Gson",
+  "bug": "14",
+  "lines": 592,
+  "single_method": false
+ },
+ "Gson_15": {
+  "project": "Gson",
+  "bug": "15",
+  "lines": 660,
+  "single_method": true,
+  "faulty": "value",
+  "faulty_ctor": false,
+  "candidates": {
+   "writeDeferredName": [
+    "callee"
+   ],
+   "beforeValue": [
+    "callee"
+   ]
+  }
+ },
+ "Gson_16": {
+  "project": "Gson",
+  "bug": "16",
+  "lines": 602,
+  "single_method": true,
+  "faulty": "resolve",
+  "faulty_ctor": false,
+  "candidates": {
+   "newParameterizedTypeWithOwner": [
+    "callee"
+   ],
+   "arrayOf": [
+    "callee"
+   ],
+   "subtypeOf": [
+    "callee"
+   ],
+   "supertypeOf": [
+    "callee"
+   ],
+   "resolveTypeVariable": [
+    "callee",
+    "stack"
+   ],
+   "declaringClassOf": [
+    "stack"
+   ]
+  }
+ },
+ "Gson_17": {
+  "project": "Gson",
+  "bug": "17",
+  "lines": 139,
+  "single_method": true,
+  "faulty": "read",
+  "faulty_ctor": false,
+  "candidates": {
+   "deserializeToDate": [
+    "callee"
+   ]
+  }
+ },
+ "Gson_18": {
+  "project": "Gson",
+  "bug": "18",
+  "lines": 608,
+  "single_method": true,
+  "faulty": "getSupertype",
+  "faulty_ctor": false,
+  "candidates": {
+   "getCollectionElementType": [
+    "caller"
+   ],
+   "getMapKeyAndValueTypes": [
+    "caller"
+   ],
+   "resolve": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonCore_3": {
+  "project": "JacksonCore",
+  "bug": "3",
+  "lines": 3251,
+  "single_method": true,
+  "faulty": "UTF8StreamJsonParser",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "JacksonCore_4": {
+  "project": "JacksonCore",
+  "bug": "4",
+  "lines": 715,
+  "single_method": true,
+  "faulty": "expandCurrentSegment",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonCore_5": {
+  "project": "JacksonCore",
+  "bug": "5",
+  "lines": 270,
+  "single_method": true,
+  "faulty": "_parseIndex",
+  "faulty_ctor": false,
+  "candidates": {
+   "compile": [
+    "stack"
+   ],
+   "_parseTail": [
+    "stack"
+   ]
+  }
+ },
+ "JacksonCore_6": {
+  "project": "JacksonCore",
+  "bug": "6",
+  "lines": 271,
+  "single_method": true,
+  "faulty": "_parseIndex",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonCore_7": {
+  "project": "JacksonCore",
+  "bug": "7",
+  "lines": 223,
+  "single_method": true,
+  "faulty": "writeValue",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonCore_8": {
+  "project": "JacksonCore",
+  "bug": "8",
+  "lines": 734,
+  "single_method": true,
+  "faulty": "getTextBuffer",
+  "faulty_ctor": false,
+  "candidates": {
+   "contentsAsArray": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonCore_10": {
+  "project": "JacksonCore",
+  "bug": "10",
+  "lines": 1266,
+  "single_method": false
+ },
+ "JacksonCore_11": {
+  "project": "JacksonCore",
+  "bug": "11",
+  "lines": 1272,
+  "single_method": true,
+  "faulty": "_verifySharing",
+  "faulty_ctor": false,
+  "candidates": {
+   "addName": [
+    "caller",
+    "stack"
+   ],
+   "rehash": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonCore_13": {
+  "project": "JacksonCore",
+  "bug": "13",
+  "lines": 198,
+  "single_method": false
+ },
+ "JacksonCore_14": {
+  "project": "JacksonCore",
+  "bug": "14",
+  "lines": 287,
+  "single_method": false
+ },
+ "JacksonCore_15": {
+  "project": "JacksonCore",
+  "bug": "15",
+  "lines": 888,
+  "single_method": true,
+  "faulty": "nextToken",
+  "faulty_ctor": false,
+  "candidates": {
+   "_nextToken2": [
+    "callee"
+   ],
+   "_nextTokenWithBuffering": [
+    "callee"
+   ],
+   "nextValue": [
+    "caller"
+   ],
+   "skipChildren": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonCore_16": {
+  "project": "JacksonCore",
+  "bug": "16",
+  "lines": 153,
+  "single_method": false
+ },
+ "JacksonCore_17": {
+  "project": "JacksonCore",
+  "bug": "17",
+  "lines": 1989,
+  "single_method": false
+ },
+ "JacksonCore_20": {
+  "project": "JacksonCore",
+  "bug": "20",
+  "lines": 1979,
+  "single_method": true,
+  "faulty": "writeEmbeddedObject",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonCore_21": {
+  "project": "JacksonCore",
+  "bug": "21",
+  "lines": 910,
+  "single_method": true,
+  "faulty": "nextToken",
+  "faulty_ctor": false,
+  "candidates": {
+   "_nextToken2": [
+    "callee"
+   ],
+   "_nextTokenWithBuffering": [
+    "callee"
+   ],
+   "nextValue": [
+    "caller"
+   ],
+   "skipChildren": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonCore_22": {
+  "project": "JacksonCore",
+  "bug": "22",
+  "lines": 906,
+  "single_method": false
+ },
+ "JacksonCore_23": {
+  "project": "JacksonCore",
+  "bug": "23",
+  "lines": 420,
+  "single_method": true,
+  "faulty": "createInstance",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonCore_25": {
+  "project": "JacksonCore",
+  "bug": "25",
+  "lines": 2881,
+  "single_method": true,
+  "faulty": "_handleOddName2",
+  "faulty_ctor": false,
+  "candidates": {
+   "_loadMore": [
+    "callee"
+   ],
+   "nextToken": [
+    "stack"
+   ],
+   "_handleOddName": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "JacksonCore_26": {
+  "project": "JacksonCore",
+  "bug": "26",
+  "lines": 2865,
+  "single_method": true,
+  "faulty": "feedInput",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_1": {
+  "project": "JacksonDatabind",
+  "bug": "1",
+  "lines": 714,
+  "single_method": true,
+  "faulty": "serializeAsColumn",
+  "faulty_ctor": false,
+  "candidates": {
+   "serializeAsPlaceholder": [
+    "callee"
+   ],
+   "_findAndAddDynamic": [
+    "callee"
+   ],
+   "get": [
+    "callee"
+   ],
+   "_handleSelfReference": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_2": {
+  "project": "JacksonDatabind",
+  "bug": "2",
+  "lines": 1759,
+  "single_method": false
+ },
+ "JacksonDatabind_3": {
+  "project": "JacksonDatabind",
+  "bug": "3",
+  "lines": 154,
+  "single_method": false
+ },
+ "JacksonDatabind_4": {
+  "project": "JacksonDatabind",
+  "bug": "4",
+  "lines": 155,
+  "single_method": false
+ },
+ "JacksonDatabind_5": {
+  "project": "JacksonDatabind",
+  "bug": "5",
+  "lines": 1028,
+  "single_method": true,
+  "faulty": "_addMethodMixIns",
+  "faulty_ctor": false,
+  "candidates": {
+   "resolveMemberMethods": [
+    "caller"
+   ],
+   "_addMemberMethods": [
+    "caller"
+   ],
+   "_constructMethod": [
+    "callee"
+   ],
+   "_isIncludableMemberMethod": [
+    "callee"
+   ],
+   "_addMixUnders": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_6": {
+  "project": "JacksonDatabind",
+  "bug": "6",
+  "lines": 475,
+  "single_method": true,
+  "faulty": "parseAsISO8601",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "caller"
+   ],
+   "hasTimeZone": [
+    "callee"
+   ],
+   "_cloneFormat": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_7": {
+  "project": "JacksonDatabind",
+  "bug": "7",
+  "lines": 1782,
+  "single_method": true,
+  "faulty": "deserialize",
+  "faulty_ctor": false,
+  "candidates": {
+   "copyCurrentStructure": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_8": {
+  "project": "JacksonDatabind",
+  "bug": "8",
+  "lines": 360,
+  "single_method": true,
+  "faulty": "verifyNonDup",
+  "faulty_ctor": false,
+  "candidates": {
+   "addStringCreator": [
+    "caller",
+    "stack"
+   ],
+   "addIntCreator": [
+    "caller"
+   ],
+   "addLongCreator": [
+    "caller"
+   ],
+   "addDoubleCreator": [
+    "caller"
+   ],
+   "addBooleanCreator": [
+    "caller"
+   ],
+   "addDelegatingCreator": [
+    "caller"
+   ],
+   "addPropertyCreator": [
+    "caller"
+   ],
+   "_fixAccess": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_9": {
+  "project": "JacksonDatabind",
+  "bug": "9",
+  "lines": 47,
+  "single_method": true,
+  "faulty": "serialize",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_11": {
+  "project": "JacksonDatabind",
+  "bug": "11",
+  "lines": 1118,
+  "single_method": true,
+  "faulty": "_fromVariable",
+  "faulty_ctor": false,
+  "candidates": {
+   "_constructType": [
+    "callee",
+    "caller",
+    "stack"
+   ],
+   "_unknownType": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_12": {
+  "project": "JacksonDatabind",
+  "bug": "12",
+  "lines": 671,
+  "single_method": true,
+  "faulty": "isCachable",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_14": {
+  "project": "JacksonDatabind",
+  "bug": "14",
+  "lines": 1727,
+  "single_method": false
+ },
+ "JacksonDatabind_16": {
+  "project": "JacksonDatabind",
+  "bug": "16",
+  "lines": 117,
+  "single_method": true,
+  "faulty": "_add",
+  "faulty_ctor": false,
+  "candidates": {
+   "addIfNotPresent": [
+    "caller"
+   ],
+   "add": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_17": {
+  "project": "JacksonDatabind",
+  "bug": "17",
+  "lines": 3194,
+  "single_method": true,
+  "faulty": "useForType",
+  "faulty_ctor": false,
+  "candidates": {
+   "buildTypeDeserializer": [
+    "caller"
+   ],
+   "buildTypeSerializer": [
+    "caller"
+   ],
+   "readTree": [
+    "stack"
+   ],
+   "_readMapAndClose": [
+    "stack"
+   ]
+  }
+ },
+ "JacksonDatabind_18": {
+  "project": "JacksonDatabind",
+  "bug": "18",
+  "lines": 367,
+  "single_method": false
+ },
+ "JacksonDatabind_19": {
+  "project": "JacksonDatabind",
+  "bug": "19",
+  "lines": 1192,
+  "single_method": true,
+  "faulty": "_mapType",
+  "faulty_ctor": false,
+  "candidates": {
+   "findTypeParameters": [
+    "callee"
+   ],
+   "_fromClass": [
+    "caller"
+   ],
+   "_fromParameterizedClass": [
+    "caller"
+   ],
+   "_unknownType": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_20": {
+  "project": "JacksonDatabind",
+  "bug": "20",
+  "lines": 807,
+  "single_method": true,
+  "faulty": "setAll",
+  "faulty_ctor": false,
+  "candidates": {
+   "putAll": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_21": {
+  "project": "JacksonDatabind",
+  "bug": "21",
+  "lines": 992,
+  "single_method": false
+ },
+ "JacksonDatabind_23": {
+  "project": "JacksonDatabind",
+  "bug": "23",
+  "lines": 242,
+  "single_method": false
+ },
+ "JacksonDatabind_24": {
+  "project": "JacksonDatabind",
+  "bug": "24",
+  "lines": 345,
+  "single_method": true,
+  "faulty": "withDateFormat",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_26": {
+  "project": "JacksonDatabind",
+  "bug": "26",
+  "lines": 923,
+  "single_method": false
+ },
+ "JacksonDatabind_27": {
+  "project": "JacksonDatabind",
+  "bug": "27",
+  "lines": 859,
+  "single_method": true,
+  "faulty": "deserializeUsingPropertyBasedWithExternalTypeId",
+  "faulty_ctor": false,
+  "candidates": {
+   "deserialize": [
+    "stack"
+   ],
+   "deserializeFromObject": [
+    "stack"
+   ],
+   "_deserializeWithErrorWrapping": [
+    "callee"
+   ],
+   "deserializeWithExternalTypeId": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "JacksonDatabind_28": {
+  "project": "JacksonDatabind",
+  "bug": "28",
+  "lines": 398,
+  "single_method": true,
+  "faulty": "deserialize",
+  "faulty_ctor": false,
+  "candidates": {
+   "deserializeObject": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_29": {
+  "project": "JacksonDatabind",
+  "bug": "29",
+  "lines": 324,
+  "single_method": false
+ },
+ "JacksonDatabind_31": {
+  "project": "JacksonDatabind",
+  "bug": "31",
+  "lines": 1856,
+  "single_method": false
+ },
+ "JacksonDatabind_32": {
+  "project": "JacksonDatabind",
+  "bug": "32",
+  "lines": 674,
+  "single_method": false
+ },
+ "JacksonDatabind_33": {
+  "project": "JacksonDatabind",
+  "bug": "33",
+  "lines": 1058,
+  "single_method": true,
+  "faulty": "findNameForSerialization",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_34": {
+  "project": "JacksonDatabind",
+  "bug": "34",
+  "lines": 88,
+  "single_method": true,
+  "faulty": "acceptJsonFormatVisitor",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_35": {
+  "project": "JacksonDatabind",
+  "bug": "35",
+  "lines": 122,
+  "single_method": true,
+  "faulty": "_deserialize",
+  "faulty_ctor": false,
+  "candidates": {
+   "deserializeTypedFromObject": [
+    "caller",
+    "stack"
+   ],
+   "deserializeTypedFromArray": [
+    "caller"
+   ],
+   "deserializeTypedFromScalar": [
+    "caller"
+   ],
+   "deserializeTypedFromAny": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_36": {
+  "project": "JacksonDatabind",
+  "bug": "36",
+  "lines": 568,
+  "single_method": false
+ },
+ "JacksonDatabind_37": {
+  "project": "JacksonDatabind",
+  "bug": "37",
+  "lines": 269,
+  "single_method": true,
+  "faulty": "_narrow",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_39": {
+  "project": "JacksonDatabind",
+  "bug": "39",
+  "lines": 55,
+  "single_method": true,
+  "faulty": "deserialize",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_40": {
+  "project": "JacksonDatabind",
+  "bug": "40",
+  "lines": 623,
+  "single_method": false
+ },
+ "JacksonDatabind_41": {
+  "project": "JacksonDatabind",
+  "bug": "41",
+  "lines": 1356,
+  "single_method": false
+ },
+ "JacksonDatabind_42": {
+  "project": "JacksonDatabind",
+  "bug": "42",
+  "lines": 288,
+  "single_method": true,
+  "faulty": "_deserializeFromEmptyString",
+  "faulty_ctor": false,
+  "candidates": {
+   "deserialize": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_43": {
+  "project": "JacksonDatabind",
+  "bug": "43",
+  "lines": 114,
+  "single_method": true,
+  "faulty": "deserializeSetAndReturn",
+  "faulty_ctor": false,
+  "candidates": {
+   "deserializeAndSet": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "JacksonDatabind_44": {
+  "project": "JacksonDatabind",
+  "bug": "44",
+  "lines": 298,
+  "single_method": true,
+  "faulty": "_narrow",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_45": {
+  "project": "JacksonDatabind",
+  "bug": "45",
+  "lines": 158,
+  "single_method": true,
+  "faulty": "createContextual",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_46": {
+  "project": "JacksonDatabind",
+  "bug": "46",
+  "lines": 194,
+  "single_method": true,
+  "faulty": "getGenericSignature",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_47": {
+  "project": "JacksonDatabind",
+  "bug": "47",
+  "lines": 1406,
+  "single_method": true,
+  "faulty": "refineSerializationType",
+  "faulty_ctor": false,
+  "candidates": {
+   "findSerializationType": [
+    "callee"
+   ],
+   "findSerializationKeyType": [
+    "callee"
+   ],
+   "findSerializationContentType": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_49": {
+  "project": "JacksonDatabind",
+  "bug": "49",
+  "lines": 76,
+  "single_method": true,
+  "faulty": "generateId",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_50": {
+  "project": "JacksonDatabind",
+  "bug": "50",
+  "lines": 937,
+  "single_method": false
+ },
+ "JacksonDatabind_51": {
+  "project": "JacksonDatabind",
+  "bug": "51",
+  "lines": 288,
+  "single_method": true,
+  "faulty": "_findDeserializer",
+  "faulty_ctor": false,
+  "candidates": {
+   "_findDefaultImplDeserializer": [
+    "callee"
+   ],
+   "_deserializeWithNativeTypeId": [
+    "caller"
+   ],
+   "_handleUnknownTypeId": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_54": {
+  "project": "JacksonDatabind",
+  "bug": "54",
+  "lines": 332,
+  "single_method": true,
+  "faulty": "buildWriter",
+  "faulty_ctor": false,
+  "candidates": {
+   "findSerializationType": [
+    "callee"
+   ],
+   "getPropertyDefaultValue": [
+    "callee"
+   ],
+   "getDefaultValue": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_55": {
+  "project": "JacksonDatabind",
+  "bug": "55",
+  "lines": 219,
+  "single_method": false
+ },
+ "JacksonDatabind_56": {
+  "project": "JacksonDatabind",
+  "bug": "56",
+  "lines": 294,
+  "single_method": false
+ },
+ "JacksonDatabind_57": {
+  "project": "JacksonDatabind",
+  "bug": "57",
+  "lines": 1890,
+  "single_method": true,
+  "faulty": "readValues",
+  "faulty_ctor": false,
+  "candidates": {
+   "_considerFilter": [
+    "callee"
+   ],
+   "_bindAndReadValues": [
+    "callee",
+    "stack"
+   ],
+   "_detectBindAndReadValues": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_58": {
+  "project": "JacksonDatabind",
+  "bug": "58",
+  "lines": 832,
+  "single_method": true,
+  "faulty": "constructSettableProperty",
+  "faulty_ctor": false,
+  "candidates": {
+   "createBeanDeserializer": [
+    "stack"
+   ],
+   "buildThrowableDeserializer": [
+    "caller",
+    "stack"
+   ],
+   "addBeanProps": [
+    "caller",
+    "stack"
+   ],
+   "addReferenceProperties": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_60": {
+  "project": "JacksonDatabind",
+  "bug": "60",
+  "lines": 384,
+  "single_method": false
+ },
+ "JacksonDatabind_62": {
+  "project": "JacksonDatabind",
+  "bug": "62",
+  "lines": 429,
+  "single_method": true,
+  "faulty": "createContextual",
+  "faulty_ctor": false,
+  "candidates": {
+   "withResolved": [
+    "callee"
+   ],
+   "deserialize": [
+    "stack"
+   ],
+   "deserializeWithType": [
+    "stack"
+   ]
+  }
+ },
+ "JacksonDatabind_63": {
+  "project": "JacksonDatabind",
+  "bug": "63",
+  "lines": 521,
+  "single_method": true,
+  "faulty": "getDescription",
+  "faulty_ctor": false,
+  "candidates": {
+   "toString": [
+    "caller"
+   ],
+   "writeReplace": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_64": {
+  "project": "JacksonDatabind",
+  "bug": "64",
+  "lines": 382,
+  "single_method": true,
+  "faulty": "buildWriter",
+  "faulty_ctor": false,
+  "candidates": {
+   "findSerializationType": [
+    "callee"
+   ],
+   "getPropertyDefaultValue": [
+    "callee"
+   ],
+   "getDefaultValue": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_66": {
+  "project": "JacksonDatabind",
+  "bug": "66",
+  "lines": 431,
+  "single_method": true,
+  "faulty": "deserializeKey",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_67": {
+  "project": "JacksonDatabind",
+  "bug": "67",
+  "lines": 1954,
+  "single_method": true,
+  "faulty": "createKeyDeserializer",
+  "faulty_ctor": false,
+  "candidates": {
+   "_createEnumKeyDeserializer": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_68": {
+  "project": "JacksonDatabind",
+  "bug": "68",
+  "lines": 1660,
+  "single_method": false
+ },
+ "JacksonDatabind_69": {
+  "project": "JacksonDatabind",
+  "bug": "69",
+  "lines": 393,
+  "single_method": false
+ },
+ "JacksonDatabind_70": {
+  "project": "JacksonDatabind",
+  "bug": "70",
+  "lines": 608,
+  "single_method": true,
+  "faulty": "remove",
+  "faulty_ctor": false,
+  "candidates": {
+   "init": [
+    "callee"
+   ],
+   "getPropertyName": [
+    "callee"
+   ],
+   "_findFromOrdered": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_71": {
+  "project": "JacksonDatabind",
+  "bug": "71",
+  "lines": 416,
+  "single_method": true,
+  "faulty": "forType",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_72": {
+  "project": "JacksonDatabind",
+  "bug": "72",
+  "lines": 168,
+  "single_method": false
+ },
+ "JacksonDatabind_74": {
+  "project": "JacksonDatabind",
+  "bug": "74",
+  "lines": 181,
+  "single_method": true,
+  "faulty": "_deserializeTypedUsingDefaultImpl",
+  "faulty_ctor": false,
+  "candidates": {
+   "deserializeTypedFromObject": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "JacksonDatabind_75": {
+  "project": "JacksonDatabind",
+  "bug": "75",
+  "lines": 241,
+  "single_method": false
+ },
+ "JacksonDatabind_76": {
+  "project": "JacksonDatabind",
+  "bug": "76",
+  "lines": 715,
+  "single_method": true,
+  "faulty": "deserializeUsingPropertyBasedWithUnwrapped",
+  "faulty_ctor": false,
+  "candidates": {
+   "deserializeWithUnwrapped": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_77": {
+  "project": "JacksonDatabind",
+  "bug": "77",
+  "lines": 846,
+  "single_method": false
+ },
+ "JacksonDatabind_78": {
+  "project": "JacksonDatabind",
+  "bug": "78",
+  "lines": 882,
+  "single_method": false
+ },
+ "JacksonDatabind_80": {
+  "project": "JacksonDatabind",
+  "bug": "80",
+  "lines": 292,
+  "single_method": false
+ },
+ "JacksonDatabind_81": {
+  "project": "JacksonDatabind",
+  "bug": "81",
+  "lines": 1459,
+  "single_method": false
+ },
+ "JacksonDatabind_82": {
+  "project": "JacksonDatabind",
+  "bug": "82",
+  "lines": 908,
+  "single_method": true,
+  "faulty": "addBeanProps",
+  "faulty_ctor": false,
+  "candidates": {
+   "buildBeanDeserializer": [
+    "caller"
+   ],
+   "buildBuilderBasedDeserializer": [
+    "caller"
+   ],
+   "buildThrowableDeserializer": [
+    "caller"
+   ],
+   "filterBeanProps": [
+    "callee"
+   ],
+   "constructAnySetter": [
+    "callee"
+   ],
+   "constructSettableProperty": [
+    "callee"
+   ],
+   "constructSetterlessProperty": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_83": {
+  "project": "JacksonDatabind",
+  "bug": "83",
+  "lines": 315,
+  "single_method": true,
+  "faulty": "deserialize",
+  "faulty_ctor": false,
+  "candidates": {
+   "_deserializeEmbedded": [
+    "callee"
+   ],
+   "_deserializeFromEmptyString": [
+    "callee"
+   ],
+   "_deserialize": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_84": {
+  "project": "JacksonDatabind",
+  "bug": "84",
+  "lines": 115,
+  "single_method": false
+ },
+ "JacksonDatabind_85": {
+  "project": "JacksonDatabind",
+  "bug": "85",
+  "lines": 172,
+  "single_method": true,
+  "faulty": "createContextual",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_86": {
+  "project": "JacksonDatabind",
+  "bug": "86",
+  "lines": 115,
+  "single_method": false
+ },
+ "JacksonDatabind_87": {
+  "project": "JacksonDatabind",
+  "bug": "87",
+  "lines": 602,
+  "single_method": false
+ },
+ "JacksonDatabind_88": {
+  "project": "JacksonDatabind",
+  "bug": "88",
+  "lines": 154,
+  "single_method": true,
+  "faulty": "_typeFromId",
+  "faulty_ctor": false,
+  "candidates": {
+   "typeFromId": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_91": {
+  "project": "JacksonDatabind",
+  "bug": "91",
+  "lines": 589,
+  "single_method": true,
+  "faulty": "_hasCustomHandlers",
+  "faulty_ctor": false,
+  "candidates": {
+   "_findCachedDeserializer": [
+    "caller"
+   ],
+   "_createAndCache2": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_92": {
+  "project": "JacksonDatabind",
+  "bug": "92",
+  "lines": 888,
+  "single_method": false
+ },
+ "JacksonDatabind_93": {
+  "project": "JacksonDatabind",
+  "bug": "93",
+  "lines": 101,
+  "single_method": true,
+  "faulty": "validateSubType",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_94": {
+  "project": "JacksonDatabind",
+  "bug": "94",
+  "lines": 113,
+  "single_method": false
+ },
+ "JacksonDatabind_96": {
+  "project": "JacksonDatabind",
+  "bug": "96",
+  "lines": 2178,
+  "single_method": true,
+  "faulty": "_addExplicitAnyCreator",
+  "faulty_ctor": false,
+  "candidates": {
+   "_addDeserializerConstructors": [
+    "caller"
+   ],
+   "_addExplicitDelegatingCreator": [
+    "callee"
+   ],
+   "_addExplicitPropertyCreator": [
+    "callee"
+   ],
+   "_addDeserializerFactoryMethods": [
+    "caller"
+   ],
+   "_handleSingleArgumentCreator": [
+    "callee"
+   ],
+   "constructCreatorProperty": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_97": {
+  "project": "JacksonDatabind",
+  "bug": "97",
+  "lines": 173,
+  "single_method": true,
+  "faulty": "serialize",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_98": {
+  "project": "JacksonDatabind",
+  "bug": "98",
+  "lines": 487,
+  "single_method": true,
+  "faulty": "complete",
+  "faulty_ctor": false,
+  "candidates": {
+   "_deserialize": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_99": {
+  "project": "JacksonDatabind",
+  "bug": "99",
+  "lines": 281,
+  "single_method": true,
+  "faulty": "buildCanonicalName",
+  "faulty_ctor": false,
+  "candidates": {
+   "toString": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_100": {
+  "project": "JacksonDatabind",
+  "bug": "100",
+  "lines": 420,
+  "single_method": true,
+  "faulty": "getBinaryValue",
+  "faulty_ctor": false,
+  "candidates": {
+   "readBinaryValue": [
+    "caller"
+   ],
+   "currentNode": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_101": {
+  "project": "JacksonDatabind",
+  "bug": "101",
+  "lines": 1049,
+  "single_method": true,
+  "faulty": "deserializeUsingPropertyBasedWithUnwrapped",
+  "faulty_ctor": false,
+  "candidates": {
+   "_deserializeWithErrorWrapping": [
+    "callee"
+   ],
+   "deserializeWithUnwrapped": [
+    "caller"
+   ]
+  }
+ },
+ "JacksonDatabind_102": {
+  "project": "JacksonDatabind",
+  "bug": "102",
+  "lines": 233,
+  "single_method": true,
+  "faulty": "createContextual",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JacksonDatabind_104": {
+  "project": "JacksonDatabind",
+  "bug": "104",
+  "lines": 784,
+  "single_method": false
+ },
+ "JacksonDatabind_105": {
+  "project": "JacksonDatabind",
+  "bug": "105",
+  "lines": 52,
+  "single_method": false
+ },
+ "JacksonDatabind_106": {
+  "project": "JacksonDatabind",
+  "bug": "106",
+  "lines": 416,
+  "single_method": false
+ },
+ "JacksonDatabind_107": {
+  "project": "JacksonDatabind",
+  "bug": "107",
+  "lines": 303,
+  "single_method": true,
+  "faulty": "_findDeserializer",
+  "faulty_ctor": false,
+  "candidates": {
+   "_findDefaultImplDeserializer": [
+    "callee"
+   ],
+   "_deserializeWithNativeTypeId": [
+    "caller"
+   ],
+   "_handleUnknownTypeId": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonDatabind_108": {
+  "project": "JacksonDatabind",
+  "bug": "108",
+  "lines": 1993,
+  "single_method": false
+ },
+ "JacksonDatabind_110": {
+  "project": "JacksonDatabind",
+  "bug": "110",
+  "lines": 188,
+  "single_method": false
+ },
+ "JacksonDatabind_112": {
+  "project": "JacksonDatabind",
+  "bug": "112",
+  "lines": 288,
+  "single_method": true,
+  "faulty": "createContextual",
+  "faulty_ctor": false,
+  "candidates": {
+   "withResolved": [
+    "callee"
+   ],
+   "deserialize": [
+    "stack"
+   ]
+  }
+ },
+ "JacksonXml_1": {
+  "project": "JacksonXml",
+  "bug": "1",
+  "lines": 957,
+  "single_method": true,
+  "faulty": "nextToken",
+  "faulty_ctor": false,
+  "candidates": {
+   "_isEmpty": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonXml_2": {
+  "project": "JacksonXml",
+  "bug": "2",
+  "lines": 526,
+  "single_method": false
+ },
+ "JacksonXml_3": {
+  "project": "JacksonXml",
+  "bug": "3",
+  "lines": 966,
+  "single_method": true,
+  "faulty": "nextTextValue",
+  "faulty_ctor": false,
+  "candidates": {
+   "_updateState": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonXml_4": {
+  "project": "JacksonXml",
+  "bug": "4",
+  "lines": 272,
+  "single_method": true,
+  "faulty": "_serializeXmlNull",
+  "faulty_ctor": false,
+  "candidates": {
+   "serializeValue": [
+    "caller"
+   ],
+   "_initWithRootName": [
+    "callee"
+   ]
+  }
+ },
+ "JacksonXml_5": {
+  "project": "JacksonXml",
+  "bug": "5",
+  "lines": 245,
+  "single_method": true,
+  "faulty": "XmlSerializerProvider",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "JacksonXml_6": {
+  "project": "JacksonXml",
+  "bug": "6",
+  "lines": 1246,
+  "single_method": false
+ },
+ "Jsoup_1": {
+  "project": "Jsoup",
+  "bug": "1",
+  "lines": 152,
+  "single_method": true,
+  "faulty": "normalise",
+  "faulty_ctor": false,
+  "candidates": {
+   "body": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_2": {
+  "project": "Jsoup",
+  "bug": "2",
+  "lines": 291,
+  "single_method": true,
+  "faulty": "parseStartTag",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "caller"
+   ],
+   "parseAttribute": [
+    "callee"
+   ],
+   "parseTextNode": [
+    "callee"
+   ],
+   "addChildToParent": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_4": {
+  "project": "Jsoup",
+  "bug": "4",
+  "lines": 2246,
+  "single_method": false
+ },
+ "Jsoup_5": {
+  "project": "Jsoup",
+  "bug": "5",
+  "lines": 317,
+  "single_method": true,
+  "faulty": "parseAttribute",
+  "faulty_ctor": false,
+  "candidates": {
+   "parse": [
+    "stack"
+   ],
+   "parseStartTag": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Jsoup_6": {
+  "project": "Jsoup",
+  "bug": "6",
+  "lines": 2245,
+  "single_method": true,
+  "faulty": "unescape",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_7": {
+  "project": "Jsoup",
+  "bug": "7",
+  "lines": 294,
+  "single_method": false
+ },
+ "Jsoup_8": {
+  "project": "Jsoup",
+  "bug": "8",
+  "lines": 418,
+  "single_method": false
+ },
+ "Jsoup_9": {
+  "project": "Jsoup",
+  "bug": "9",
+  "lines": 2275,
+  "single_method": false
+ },
+ "Jsoup_10": {
+  "project": "Jsoup",
+  "bug": "10",
+  "lines": 454,
+  "single_method": true,
+  "faulty": "absUrl",
+  "faulty_ctor": false,
+  "candidates": {
+   "attr": [
+    "callee",
+    "caller"
+   ],
+   "hasAttr": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_11": {
+  "project": "Jsoup",
+  "bug": "11",
+  "lines": 406,
+  "single_method": false
+ },
+ "Jsoup_12": {
+  "project": "Jsoup",
+  "bug": "12",
+  "lines": 432,
+  "single_method": false
+ },
+ "Jsoup_13": {
+  "project": "Jsoup",
+  "bug": "13",
+  "lines": 555,
+  "single_method": true,
+  "faulty": "hasAttr",
+  "faulty_ctor": false,
+  "candidates": {
+   "absUrl": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_15": {
+  "project": "Jsoup",
+  "bug": "15",
+  "lines": 1483,
+  "single_method": true,
+  "faulty": "process",
+  "faulty_ctor": false,
+  "candidates": {
+   "anyOtherEndTag": [
+    "callee"
+   ],
+   "isWhitespace": [
+    "callee"
+   ],
+   "handleRawtext": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_16": {
+  "project": "Jsoup",
+  "bug": "16",
+  "lines": 45,
+  "single_method": false
+ },
+ "Jsoup_17": {
+  "project": "Jsoup",
+  "bug": "17",
+  "lines": 1483,
+  "single_method": false
+ },
+ "Jsoup_18": {
+  "project": "Jsoup",
+  "bug": "18",
+  "lines": 210,
+  "single_method": false
+ },
+ "Jsoup_19": {
+  "project": "Jsoup",
+  "bug": "19",
+  "lines": 443,
+  "single_method": true,
+  "faulty": "testValidProtocol",
+  "faulty_ctor": false,
+  "candidates": {
+   "isSafeAttribute": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_20": {
+  "project": "Jsoup",
+  "bug": "20",
+  "lines": 134,
+  "single_method": true,
+  "faulty": "parseByteData",
+  "faulty_ctor": false,
+  "candidates": {
+   "load": [
+    "caller"
+   ],
+   "getCharsetFromContentType": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_24": {
+  "project": "Jsoup",
+  "bug": "24",
+  "lines": 1780,
+  "single_method": true,
+  "faulty": "read",
+  "faulty_ctor": false,
+  "candidates": {
+   "anythingElse": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_25": {
+  "project": "Jsoup",
+  "bug": "25",
+  "lines": 263,
+  "single_method": false
+ },
+ "Jsoup_26": {
+  "project": "Jsoup",
+  "bug": "26",
+  "lines": 130,
+  "single_method": true,
+  "faulty": "clean",
+  "faulty_ctor": false,
+  "candidates": {
+   "copySafeNodes": [
+    "callee",
+    "stack"
+   ]
+  }
+ },
+ "Jsoup_27": {
+  "project": "Jsoup",
+  "bug": "27",
+  "lines": 140,
+  "single_method": true,
+  "faulty": "getCharsetFromContentType",
+  "faulty_ctor": false,
+  "candidates": {
+   "parseByteData": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_29": {
+  "project": "Jsoup",
+  "bug": "29",
+  "lines": 363,
+  "single_method": true,
+  "faulty": "title",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_30": {
+  "project": "Jsoup",
+  "bug": "30",
+  "lines": 130,
+  "single_method": false
+ },
+ "Jsoup_32": {
+  "project": "Jsoup",
+  "bug": "32",
+  "lines": 1142,
+  "single_method": true,
+  "faulty": "clone",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_33": {
+  "project": "Jsoup",
+  "bug": "33",
+  "lines": 705,
+  "single_method": true,
+  "faulty": "insert",
+  "faulty_ctor": false,
+  "candidates": {
+   "insertEmpty": [
+    "callee"
+   ],
+   "reconstructFormattingElements": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_34": {
+  "project": "Jsoup",
+  "bug": "34",
+  "lines": 285,
+  "single_method": true,
+  "faulty": "nextIndexOf",
+  "faulty_ctor": false,
+  "candidates": {
+   "consumeTo": [
+    "caller",
+    "stack"
+   ],
+   "containsIgnoreCase": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_35": {
+  "project": "Jsoup",
+  "bug": "35",
+  "lines": 1486,
+  "single_method": true,
+  "faulty": "process",
+  "faulty_ctor": false,
+  "candidates": {
+   "anyOtherEndTag": [
+    "callee"
+   ],
+   "isWhitespace": [
+    "callee"
+   ],
+   "handleRawtext": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_36": {
+  "project": "Jsoup",
+  "bug": "36",
+  "lines": 171,
+  "single_method": false
+ },
+ "Jsoup_37": {
+  "project": "Jsoup",
+  "bug": "37",
+  "lines": 1145,
+  "single_method": true,
+  "faulty": "html",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_38": {
+  "project": "Jsoup",
+  "bug": "38",
+  "lines": 1502,
+  "single_method": true,
+  "faulty": "process",
+  "faulty_ctor": false,
+  "candidates": {
+   "anyOtherEndTag": [
+    "callee"
+   ],
+   "isWhitespace": [
+    "callee"
+   ],
+   "handleRawtext": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_39": {
+  "project": "Jsoup",
+  "bug": "39",
+  "lines": 189,
+  "single_method": true,
+  "faulty": "parseByteData",
+  "faulty_ctor": false,
+  "candidates": {
+   "load": [
+    "caller"
+   ],
+   "getCharsetFromContentType": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_40": {
+  "project": "Jsoup",
+  "bug": "40",
+  "lines": 49,
+  "single_method": true,
+  "faulty": "DocumentType",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Jsoup_41": {
+  "project": "Jsoup",
+  "bug": "41",
+  "lines": 1190,
+  "single_method": true,
+  "faulty": "equals",
+  "faulty_ctor": false,
+  "candidates": {
+   "accumulateParents": [
+    "caller"
+   ],
+   "text": [
+    "caller"
+   ],
+   "head": [
+    "caller"
+   ],
+   "appendWhitespaceIfBr": [
+    "caller"
+   ],
+   "val": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_42": {
+  "project": "Jsoup",
+  "bug": "42",
+  "lines": 114,
+  "single_method": true,
+  "faulty": "formData",
+  "faulty_ctor": false,
+  "candidates": {
+   "submit": [
+    "caller"
+   ],
+   "equals": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_43": {
+  "project": "Jsoup",
+  "bug": "43",
+  "lines": 1206,
+  "single_method": true,
+  "faulty": "indexInList",
+  "faulty_ctor": false,
+  "candidates": {
+   "nextElementSibling": [
+    "caller"
+   ],
+   "previousElementSibling": [
+    "caller"
+   ],
+   "elementSiblingIndex": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_44": {
+  "project": "Jsoup",
+  "bug": "44",
+  "lines": 80,
+  "single_method": false
+ },
+ "Jsoup_45": {
+  "project": "Jsoup",
+  "bug": "45",
+  "lines": 704,
+  "single_method": true,
+  "faulty": "resetInsertionMode",
+  "faulty_ctor": false,
+  "candidates": {
+   "parseFragment": [
+    "caller"
+   ],
+   "transition": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_46": {
+  "project": "Jsoup",
+  "bug": "46",
+  "lines": 266,
+  "single_method": true,
+  "faulty": "escape",
+  "faulty_ctor": false,
+  "candidates": {
+   "canEncode": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_47": {
+  "project": "Jsoup",
+  "bug": "47",
+  "lines": 267,
+  "single_method": true,
+  "faulty": "escape",
+  "faulty_ctor": false,
+  "candidates": {
+   "canEncode": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_48": {
+  "project": "Jsoup",
+  "bug": "48",
+  "lines": 944,
+  "single_method": true,
+  "faulty": "processResponseHeaders",
+  "faulty_ctor": false,
+  "candidates": {
+   "header": [
+    "callee"
+   ],
+   "cookie": [
+    "callee"
+   ],
+   "setupFromConnection": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_49": {
+  "project": "Jsoup",
+  "bug": "49",
+  "lines": 680,
+  "single_method": true,
+  "faulty": "addChildren",
+  "faulty_ctor": false,
+  "candidates": {
+   "ensureChildNodes": [
+    "callee"
+   ],
+   "reparentChild": [
+    "callee"
+   ],
+   "reindexChildren": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_50": {
+  "project": "Jsoup",
+  "bug": "50",
+  "lines": 228,
+  "single_method": true,
+  "faulty": "parseByteData",
+  "faulty_ctor": false,
+  "candidates": {
+   "load": [
+    "caller"
+   ],
+   "getCharsetFromContentType": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_51": {
+  "project": "Jsoup",
+  "bug": "51",
+  "lines": 397,
+  "single_method": true,
+  "faulty": "matchesLetter",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_53": {
+  "project": "Jsoup",
+  "bug": "53",
+  "lines": 396,
+  "single_method": true,
+  "faulty": "chompBalanced",
+  "faulty_ctor": false,
+  "candidates": {
+   "consume": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_54": {
+  "project": "Jsoup",
+  "bug": "54",
+  "lines": 176,
+  "single_method": true,
+  "faulty": "copyAttributes",
+  "faulty_ctor": false,
+  "candidates": {
+   "fromJsoup": [
+    "stack"
+   ],
+   "convert": [
+    "stack"
+   ],
+   "head": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Jsoup_55": {
+  "project": "Jsoup",
+  "bug": "55",
+  "lines": 1730,
+  "single_method": true,
+  "faulty": "read",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_57": {
+  "project": "Jsoup",
+  "bug": "57",
+  "lines": 343,
+  "single_method": true,
+  "faulty": "removeIgnoreCase",
+  "faulty_ctor": false,
+  "candidates": {
+   "iterator": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_59": {
+  "project": "Jsoup",
+  "bug": "59",
+  "lines": 375,
+  "single_method": true,
+  "faulty": "newAttribute",
+  "faulty_ctor": false,
+  "candidates": {
+   "reset": [
+    "callee"
+   ],
+   "finaliseTag": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Jsoup_61": {
+  "project": "Jsoup",
+  "bug": "61",
+  "lines": 1291,
+  "single_method": true,
+  "faulty": "hasClass",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_62": {
+  "project": "Jsoup",
+  "bug": "62",
+  "lines": 1514,
+  "single_method": true,
+  "faulty": "anyOtherEndTag",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_64": {
+  "project": "Jsoup",
+  "bug": "64",
+  "lines": 1521,
+  "single_method": true,
+  "faulty": "handleRawtext",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_66": {
+  "project": "Jsoup",
+  "bug": "66",
+  "lines": 1418,
+  "single_method": false
+ },
+ "Jsoup_67": {
+  "project": "Jsoup",
+  "bug": "67",
+  "lines": 732,
+  "single_method": false
+ },
+ "Jsoup_68": {
+  "project": "Jsoup",
+  "bug": "68",
+  "lines": 738,
+  "single_method": true,
+  "faulty": "inSpecificScope",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "stack"
+   ],
+   "inScope": [
+    "caller",
+    "stack"
+   ],
+   "inButtonScope": [
+    "stack"
+   ],
+   "inTableScope": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_69": {
+  "project": "Jsoup",
+  "bug": "69",
+  "lines": 109,
+  "single_method": false
+ },
+ "Jsoup_70": {
+  "project": "Jsoup",
+  "bug": "70",
+  "lines": 1433,
+  "single_method": true,
+  "faulty": "preserveWhitespace",
+  "faulty_ctor": false,
+  "candidates": {
+   "appendNormalisedText": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_72": {
+  "project": "Jsoup",
+  "bug": "72",
+  "lines": 474,
+  "single_method": true,
+  "faulty": "cacheString",
+  "faulty_ctor": false,
+  "candidates": {
+   "consumeTo": [
+    "caller",
+    "stack"
+   ],
+   "consumeToAny": [
+    "caller"
+   ],
+   "consumeToAnySorted": [
+    "caller"
+   ],
+   "consumeData": [
+    "caller"
+   ],
+   "consumeTagName": [
+    "caller"
+   ],
+   "consumeToEnd": [
+    "caller",
+    "stack"
+   ],
+   "consumeLetterSequence": [
+    "caller"
+   ],
+   "consumeLetterThenDigitSequence": [
+    "caller"
+   ],
+   "consumeHexSequence": [
+    "caller"
+   ],
+   "consumeDigitSequence": [
+    "caller"
+   ],
+   "rangeEquals": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_73": {
+  "project": "Jsoup",
+  "bug": "73",
+  "lines": 173,
+  "single_method": false
+ },
+ "Jsoup_74": {
+  "project": "Jsoup",
+  "bug": "74",
+  "lines": 253,
+  "single_method": false
+ },
+ "Jsoup_75": {
+  "project": "Jsoup",
+  "bug": "75",
+  "lines": 447,
+  "single_method": true,
+  "faulty": "html",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_76": {
+  "project": "Jsoup",
+  "bug": "76",
+  "lines": 1531,
+  "single_method": true,
+  "faulty": "process",
+  "faulty_ctor": false,
+  "candidates": {
+   "anyOtherEndTag": [
+    "callee"
+   ],
+   "isWhitespace": [
+    "callee"
+   ],
+   "handleRawtext": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_77": {
+  "project": "Jsoup",
+  "bug": "77",
+  "lines": 144,
+  "single_method": true,
+  "faulty": "popStackToClose",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "caller"
+   ]
+  }
+ },
+ "Jsoup_78": {
+  "project": "Jsoup",
+  "bug": "78",
+  "lines": 267,
+  "single_method": true,
+  "faulty": "parseInputStream",
+  "faulty_ctor": false,
+  "candidates": {
+   "load": [
+    "caller"
+   ],
+   "readToByteBuffer": [
+    "callee"
+   ],
+   "getCharsetFromContentType": [
+    "callee"
+   ],
+   "validateCharset": [
+    "callee"
+   ],
+   "detectCharsetFromBom": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_79": {
+  "project": "Jsoup",
+  "bug": "79",
+  "lines": 97,
+  "single_method": false
+ },
+ "Jsoup_80": {
+  "project": "Jsoup",
+  "bug": "80",
+  "lines": 144,
+  "single_method": true,
+  "faulty": "insert",
+  "faulty_ctor": false,
+  "candidates": {
+   "process": [
+    "caller",
+    "stack"
+   ],
+   "insertNode": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_81": {
+  "project": "Jsoup",
+  "bug": "81",
+  "lines": 278,
+  "single_method": true,
+  "faulty": "parseInputStream",
+  "faulty_ctor": false,
+  "candidates": {
+   "load": [
+    "caller"
+   ],
+   "readToByteBuffer": [
+    "callee"
+   ],
+   "getCharsetFromContentType": [
+    "callee"
+   ],
+   "validateCharset": [
+    "callee"
+   ],
+   "detectCharsetFromBom": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_82": {
+  "project": "Jsoup",
+  "bug": "82",
+  "lines": 268,
+  "single_method": true,
+  "faulty": "parseInputStream",
+  "faulty_ctor": false,
+  "candidates": {
+   "load": [
+    "caller"
+   ],
+   "readToByteBuffer": [
+    "callee"
+   ],
+   "getCharsetFromContentType": [
+    "callee"
+   ],
+   "validateCharset": [
+    "callee"
+   ],
+   "detectCharsetFromBom": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_84": {
+  "project": "Jsoup",
+  "bug": "84",
+  "lines": 179,
+  "single_method": true,
+  "faulty": "head",
+  "faulty_ctor": false,
+  "candidates": {
+   "fromJsoup": [
+    "stack"
+   ],
+   "convert": [
+    "stack"
+   ],
+   "copyAttributes": [
+    "callee"
+   ],
+   "updateNamespaces": [
+    "callee"
+   ]
+  }
+ },
+ "Jsoup_85": {
+  "project": "Jsoup",
+  "bug": "85",
+  "lines": 208,
+  "single_method": true,
+  "faulty": "Attribute",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Jsoup_86": {
+  "project": "Jsoup",
+  "bug": "86",
+  "lines": 86,
+  "single_method": true,
+  "faulty": "asXmlDeclaration",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_88": {
+  "project": "Jsoup",
+  "bug": "88",
+  "lines": 209,
+  "single_method": true,
+  "faulty": "getValue",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_89": {
+  "project": "Jsoup",
+  "bug": "89",
+  "lines": 209,
+  "single_method": true,
+  "faulty": "setValue",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Jsoup_90": {
+  "project": "Jsoup",
+  "bug": "90",
+  "lines": 1202,
+  "single_method": true,
+  "faulty": "looksLikeUtf8",
+  "faulty_ctor": false,
+  "candidates": {
+   "addHeader": [
+    "stack"
+   ],
+   "fixHeaderEncoding": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Jsoup_93": {
+  "project": "Jsoup",
+  "bug": "93",
+  "lines": 115,
+  "single_method": true,
+  "faulty": "formData",
+  "faulty_ctor": false,
+  "candidates": {
+   "submit": [
+    "caller"
+   ]
+  }
+ },
+ "JxPath_2": {
+  "project": "JxPath",
+  "bug": "2",
+  "lines": 146,
+  "single_method": false
+ },
+ "JxPath_3": {
+  "project": "JxPath",
+  "bug": "3",
+  "lines": 225,
+  "single_method": false
+ },
+ "JxPath_5": {
+  "project": "JxPath",
+  "bug": "5",
+  "lines": 706,
+  "single_method": true,
+  "faulty": "compareNodePointers",
+  "faulty_ctor": false,
+  "candidates": {
+   "compareTo": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "JxPath_6": {
+  "project": "JxPath",
+  "bug": "6",
+  "lines": 142,
+  "single_method": true,
+  "faulty": "equal",
+  "faulty_ctor": false,
+  "candidates": {
+   "contains": [
+    "callee"
+   ],
+   "findMatch": [
+    "callee"
+   ]
+  }
+ },
+ "JxPath_8": {
+  "project": "JxPath",
+  "bug": "8",
+  "lines": 114,
+  "single_method": true,
+  "faulty": "compute",
+  "faulty_ctor": false,
+  "candidates": {
+   "computeValue": [
+    "caller"
+   ],
+   "reduce": [
+    "callee"
+   ],
+   "containsMatch": [
+    "callee",
+    "caller"
+   ],
+   "findMatch": [
+    "callee"
+   ]
+  }
+ },
+ "JxPath_10": {
+  "project": "JxPath",
+  "bug": "10",
+  "lines": 120,
+  "single_method": true,
+  "faulty": "computeValue",
+  "faulty_ctor": false,
+  "candidates": {
+   "compute": [
+    "callee"
+   ]
+  }
+ },
+ "JxPath_12": {
+  "project": "JxPath",
+  "bug": "12",
+  "lines": 728,
+  "single_method": true,
+  "faulty": "testNode",
+  "faulty_ctor": false,
+  "candidates": {
+   "equalStrings": [
+    "callee"
+   ],
+   "equals": [
+    "callee"
+   ]
+  }
+ },
+ "JxPath_14": {
+  "project": "JxPath",
+  "bug": "14",
+  "lines": 718,
+  "single_method": false
+ },
+ "JxPath_15": {
+  "project": "JxPath",
+  "bug": "15",
+  "lines": 66,
+  "single_method": true,
+  "faulty": "setPosition",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "JxPath_18": {
+  "project": "JxPath",
+  "bug": "18",
+  "lines": 92,
+  "single_method": false
+ },
+ "JxPath_20": {
+  "project": "JxPath",
+  "bug": "20",
+  "lines": 159,
+  "single_method": false
+ },
+ "JxPath_21": {
+  "project": "JxPath",
+  "bug": "21",
+  "lines": 255,
+  "single_method": true,
+  "faulty": "getLength",
+  "faulty_ctor": false,
+  "candidates": {
+   "createPath": [
+    "caller"
+   ]
+  }
+ },
+ "JxPath_22": {
+  "project": "JxPath",
+  "bug": "22",
+  "lines": 793,
+  "single_method": true,
+  "faulty": "getNamespaceURI",
+  "faulty_ctor": false,
+  "candidates": {
+   "matchesQName": [
+    "caller"
+   ],
+   "getPrefix": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_1": {
+  "project": "Lang",
+  "bug": "1",
+  "lines": 1428,
+  "single_method": true,
+  "faulty": "createNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "isAllZeros": [
+    "callee"
+   ],
+   "createFloat": [
+    "callee"
+   ],
+   "createDouble": [
+    "callee"
+   ],
+   "createInteger": [
+    "callee",
+    "stack"
+   ],
+   "createLong": [
+    "callee"
+   ],
+   "createBigInteger": [
+    "callee"
+   ],
+   "createBigDecimal": [
+    "callee"
+   ],
+   "isDigits": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_3": {
+  "project": "Lang",
+  "bug": "3",
+  "lines": 1424,
+  "single_method": true,
+  "faulty": "createNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "isAllZeros": [
+    "callee"
+   ],
+   "createFloat": [
+    "callee"
+   ],
+   "createDouble": [
+    "callee"
+   ],
+   "createInteger": [
+    "callee"
+   ],
+   "createLong": [
+    "callee"
+   ],
+   "createBigInteger": [
+    "callee"
+   ],
+   "createBigDecimal": [
+    "callee"
+   ],
+   "isDigits": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_4": {
+  "project": "Lang",
+  "bug": "4",
+  "lines": 86,
+  "single_method": false
+ },
+ "Lang_5": {
+  "project": "Lang",
+  "bug": "5",
+  "lines": 302,
+  "single_method": true,
+  "faulty": "toLocale",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_6": {
+  "project": "Lang",
+  "bug": "6",
+  "lines": 126,
+  "single_method": true,
+  "faulty": "translate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_7": {
+  "project": "Lang",
+  "bug": "7",
+  "lines": 1423,
+  "single_method": false
+ },
+ "Lang_8": {
+  "project": "Lang",
+  "bug": "8",
+  "lines": 1252,
+  "single_method": false
+ },
+ "Lang_9": {
+  "project": "Lang",
+  "bug": "9",
+  "lines": 868,
+  "single_method": true,
+  "faulty": "init",
+  "faulty_ctor": false,
+  "candidates": {
+   "readObject": [
+    "caller"
+   ],
+   "getStrategy": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_10": {
+  "project": "Lang",
+  "bug": "10",
+  "lines": 877,
+  "single_method": true,
+  "faulty": "escapeRegex",
+  "faulty_ctor": false,
+  "candidates": {
+   "addRegex": [
+    "caller"
+   ]
+  }
+ },
+ "Lang_11": {
+  "project": "Lang",
+  "bug": "11",
+  "lines": 332,
+  "single_method": true,
+  "faulty": "random",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_12": {
+  "project": "Lang",
+  "bug": "12",
+  "lines": 325,
+  "single_method": true,
+  "faulty": "random",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_13": {
+  "project": "Lang",
+  "bug": "13",
+  "lines": 275,
+  "single_method": false
+ },
+ "Lang_14": {
+  "project": "Lang",
+  "bug": "14",
+  "lines": 6589,
+  "single_method": true,
+  "faulty": "equals",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_15": {
+  "project": "Lang",
+  "bug": "15",
+  "lines": 1102,
+  "single_method": false
+ },
+ "Lang_16": {
+  "project": "Lang",
+  "bug": "16",
+  "lines": 1414,
+  "single_method": true,
+  "faulty": "createNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "isAllZeros": [
+    "callee"
+   ],
+   "createFloat": [
+    "callee"
+   ],
+   "createDouble": [
+    "callee"
+   ],
+   "createInteger": [
+    "callee"
+   ],
+   "createLong": [
+    "callee"
+   ],
+   "createBigInteger": [
+    "callee"
+   ],
+   "createBigDecimal": [
+    "callee"
+   ],
+   "isDigits": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_17": {
+  "project": "Lang",
+  "bug": "17",
+  "lines": 132,
+  "single_method": true,
+  "faulty": "translate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_19": {
+  "project": "Lang",
+  "bug": "19",
+  "lines": 85,
+  "single_method": true,
+  "faulty": "translate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_20": {
+  "project": "Lang",
+  "bug": "20",
+  "lines": 6565,
+  "single_method": false
+ },
+ "Lang_21": {
+  "project": "Lang",
+  "bug": "21",
+  "lines": 1872,
+  "single_method": true,
+  "faulty": "isSameLocalTime",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_22": {
+  "project": "Lang",
+  "bug": "22",
+  "lines": 959,
+  "single_method": true,
+  "faulty": "greatestCommonDivisor",
+  "faulty_ctor": false,
+  "candidates": {
+   "getReducedFraction": [
+    "caller"
+   ],
+   "reduce": [
+    "caller"
+   ],
+   "addSub": [
+    "caller"
+   ],
+   "multiplyBy": [
+    "caller"
+   ]
+  }
+ },
+ "Lang_23": {
+  "project": "Lang",
+  "bug": "23",
+  "lines": 506,
+  "single_method": false
+ },
+ "Lang_24": {
+  "project": "Lang",
+  "bug": "24",
+  "lines": 1424,
+  "single_method": true,
+  "faulty": "isNumber",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_26": {
+  "project": "Lang",
+  "bug": "26",
+  "lines": 1758,
+  "single_method": true,
+  "faulty": "format",
+  "faulty_ctor": false,
+  "candidates": {
+   "applyRules": [
+    "callee"
+   ],
+   "toString": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_27": {
+  "project": "Lang",
+  "bug": "27",
+  "lines": 1421,
+  "single_method": true,
+  "faulty": "createNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "isAllZeros": [
+    "callee"
+   ],
+   "createFloat": [
+    "callee"
+   ],
+   "createDouble": [
+    "callee"
+   ],
+   "createInteger": [
+    "callee"
+   ],
+   "createLong": [
+    "callee"
+   ],
+   "createBigInteger": [
+    "callee"
+   ],
+   "createBigDecimal": [
+    "callee"
+   ],
+   "isDigits": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_28": {
+  "project": "Lang",
+  "bug": "28",
+  "lines": 69,
+  "single_method": true,
+  "faulty": "translate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_29": {
+  "project": "Lang",
+  "bug": "29",
+  "lines": 1825,
+  "single_method": true,
+  "faulty": "toJavaVersionInt",
+  "faulty_ctor": false,
+  "candidates": {
+   "toJavaVersionIntArray": [
+    "callee"
+   ],
+   "toVersionInt": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_30": {
+  "project": "Lang",
+  "bug": "30",
+  "lines": 6153,
+  "single_method": false
+ },
+ "Lang_31": {
+  "project": "Lang",
+  "bug": "31",
+  "lines": 6135,
+  "single_method": true,
+  "faulty": "containsAny",
+  "faulty_ctor": false,
+  "candidates": {
+   "isEmpty": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_32": {
+  "project": "Lang",
+  "bug": "32",
+  "lines": 983,
+  "single_method": false
+ },
+ "Lang_33": {
+  "project": "Lang",
+  "bug": "33",
+  "lines": 1053,
+  "single_method": true,
+  "faulty": "toClass",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_34": {
+  "project": "Lang",
+  "bug": "34",
+  "lines": 2279,
+  "single_method": false
+ },
+ "Lang_35": {
+  "project": "Lang",
+  "bug": "35",
+  "lines": 4486,
+  "single_method": false
+ },
+ "Lang_36": {
+  "project": "Lang",
+  "bug": "36",
+  "lines": 1409,
+  "single_method": false
+ },
+ "Lang_37": {
+  "project": "Lang",
+  "bug": "37",
+  "lines": 4412,
+  "single_method": true,
+  "faulty": "addAll",
+  "faulty_ctor": false,
+  "candidates": {
+   "clone": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_38": {
+  "project": "Lang",
+  "bug": "38",
+  "lines": 1757,
+  "single_method": true,
+  "faulty": "format",
+  "faulty_ctor": false,
+  "candidates": {
+   "applyRules": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_39": {
+  "project": "Lang",
+  "bug": "39",
+  "lines": 5838,
+  "single_method": true,
+  "faulty": "replaceEach",
+  "faulty_ctor": false,
+  "candidates": {
+   "replaceEachRepeatedly": [
+    "caller"
+   ]
+  }
+ },
+ "Lang_40": {
+  "project": "Lang",
+  "bug": "40",
+  "lines": 5768,
+  "single_method": true,
+  "faulty": "containsIgnoreCase",
+  "faulty_ctor": false,
+  "candidates": {
+   "contains": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_41": {
+  "project": "Lang",
+  "bug": "41",
+  "lines": 1019,
+  "single_method": false
+ },
+ "Lang_42": {
+  "project": "Lang",
+  "bug": "42",
+  "lines": 991,
+  "single_method": true,
+  "faulty": "escape",
+  "faulty_ctor": false,
+  "candidates": {
+   "entityName": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_43": {
+  "project": "Lang",
+  "bug": "43",
+  "lines": 475,
+  "single_method": true,
+  "faulty": "appendQuotedString",
+  "faulty_ctor": false,
+  "candidates": {
+   "applyPattern": [
+    "caller",
+    "stack"
+   ],
+   "insertFormats": [
+    "caller"
+   ],
+   "next": [
+    "callee"
+   ],
+   "getQuotedString": [
+    "caller"
+   ]
+  }
+ },
+ "Lang_44": {
+  "project": "Lang",
+  "bug": "44",
+  "lines": 713,
+  "single_method": true,
+  "faulty": "createNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "isAllZeros": [
+    "callee"
+   ],
+   "createFloat": [
+    "callee"
+   ],
+   "createDouble": [
+    "callee"
+   ],
+   "createInteger": [
+    "callee"
+   ],
+   "createLong": [
+    "callee"
+   ],
+   "createBigInteger": [
+    "callee"
+   ],
+   "createBigDecimal": [
+    "callee"
+   ],
+   "isDigits": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_45": {
+  "project": "Lang",
+  "bug": "45",
+  "lines": 645,
+  "single_method": true,
+  "faulty": "abbreviate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_46": {
+  "project": "Lang",
+  "bug": "46",
+  "lines": 863,
+  "single_method": false
+ },
+ "Lang_47": {
+  "project": "Lang",
+  "bug": "47",
+  "lines": 2713,
+  "single_method": false
+ },
+ "Lang_49": {
+  "project": "Lang",
+  "bug": "49",
+  "lines": 944,
+  "single_method": true,
+  "faulty": "reduce",
+  "faulty_ctor": false,
+  "candidates": {
+   "greatestCommonDivisor": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_50": {
+  "project": "Lang",
+  "bug": "50",
+  "lines": 1752,
+  "single_method": false
+ },
+ "Lang_51": {
+  "project": "Lang",
+  "bug": "51",
+  "lines": 973,
+  "single_method": true,
+  "faulty": "toBoolean",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_52": {
+  "project": "Lang",
+  "bug": "52",
+  "lines": 688,
+  "single_method": true,
+  "faulty": "escapeJavaStyleString",
+  "faulty_ctor": false,
+  "candidates": {
+   "escapeJava": [
+    "caller"
+   ],
+   "escapeJavaScript": [
+    "caller"
+   ],
+   "hex": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_53": {
+  "project": "Lang",
+  "bug": "53",
+  "lines": 991,
+  "single_method": false
+ },
+ "Lang_54": {
+  "project": "Lang",
+  "bug": "54",
+  "lines": 292,
+  "single_method": true,
+  "faulty": "toLocale",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_55": {
+  "project": "Lang",
+  "bug": "55",
+  "lines": 264,
+  "single_method": true,
+  "faulty": "stop",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_56": {
+  "project": "Lang",
+  "bug": "56",
+  "lines": 1741,
+  "single_method": false
+ },
+ "Lang_57": {
+  "project": "Lang",
+  "bug": "57",
+  "lines": 292,
+  "single_method": true,
+  "faulty": "isAvailableLocale",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Lang_58": {
+  "project": "Lang",
+  "bug": "58",
+  "lines": 1628,
+  "single_method": true,
+  "faulty": "createNumber",
+  "faulty_ctor": false,
+  "candidates": {
+   "isAllZeros": [
+    "callee"
+   ],
+   "createFloat": [
+    "callee"
+   ],
+   "createDouble": [
+    "callee"
+   ],
+   "createInteger": [
+    "callee"
+   ],
+   "createLong": [
+    "callee"
+   ],
+   "createBigInteger": [
+    "callee"
+   ],
+   "createBigDecimal": [
+    "callee"
+   ],
+   "isDigits": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_59": {
+  "project": "Lang",
+  "bug": "59",
+  "lines": 2365,
+  "single_method": true,
+  "faulty": "appendFixedWidthPadRight",
+  "faulty_ctor": false,
+  "candidates": {
+   "ensureCapacity": [
+    "callee"
+   ]
+  }
+ },
+ "Lang_60": {
+  "project": "Lang",
+  "bug": "60",
+  "lines": 2365,
+  "single_method": false
+ },
+ "Lang_61": {
+  "project": "Lang",
+  "bug": "61",
+  "lines": 2365,
+  "single_method": true,
+  "faulty": "indexOf",
+  "faulty_ctor": false,
+  "candidates": {
+   "deleteImpl": [
+    "stack"
+   ],
+   "deleteAll": [
+    "caller",
+    "stack"
+   ],
+   "deleteFirst": [
+    "caller"
+   ],
+   "replaceAll": [
+    "caller"
+   ],
+   "replaceFirst": [
+    "caller"
+   ],
+   "contains": [
+    "caller"
+   ]
+  }
+ },
+ "Lang_62": {
+  "project": "Lang",
+  "bug": "62",
+  "lines": 948,
+  "single_method": false
+ },
+ "Lang_63": {
+  "project": "Lang",
+  "bug": "63",
+  "lines": 636,
+  "single_method": false
+ },
+ "Lang_64": {
+  "project": "Lang",
+  "bug": "64",
+  "lines": 211,
+  "single_method": false
+ },
+ "Lang_65": {
+  "project": "Lang",
+  "bug": "65",
+  "lines": 960,
+  "single_method": true,
+  "faulty": "modify",
+  "faulty_ctor": false,
+  "candidates": {
+   "round": [
+    "caller"
+   ],
+   "truncate": [
+    "caller"
+   ]
+  }
+ },
+ "Math_2": {
+  "project": "Math",
+  "bug": "2",
+  "lines": 335,
+  "single_method": true,
+  "faulty": "getNumericalMean",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_3": {
+  "project": "Math",
+  "bug": "3",
+  "lines": 1423,
+  "single_method": true,
+  "faulty": "linearCombination",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_5": {
+  "project": "Math",
+  "bug": "5",
+  "lines": 1232,
+  "single_method": true,
+  "faulty": "reciprocal",
+  "faulty_ctor": false,
+  "candidates": {
+   "createComplex": [
+    "callee"
+   ]
+  }
+ },
+ "Math_7": {
+  "project": "Math",
+  "bug": "7",
+  "lines": 428,
+  "single_method": true,
+  "faulty": "acceptStep",
+  "faulty_ctor": false,
+  "candidates": {
+   "integrate": [
+    "stack"
+   ],
+   "computeDerivatives": [
+    "callee"
+   ]
+  }
+ },
+ "Math_8": {
+  "project": "Math",
+  "bug": "8",
+  "lines": 198,
+  "single_method": true,
+  "faulty": "sample",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_9": {
+  "project": "Math",
+  "bug": "9",
+  "lines": 227,
+  "single_method": true,
+  "faulty": "revert",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_10": {
+  "project": "Math",
+  "bug": "10",
+  "lines": 1763,
+  "single_method": true,
+  "faulty": "atan2",
+  "faulty_ctor": false,
+  "candidates": {
+   "add": [
+    "callee"
+   ],
+   "subtract": [
+    "callee"
+   ],
+   "multiply": [
+    "callee"
+   ],
+   "divide": [
+    "callee"
+   ],
+   "rootN": [
+    "callee"
+   ],
+   "atan": [
+    "callee"
+   ]
+  }
+ },
+ "Math_11": {
+  "project": "Math",
+  "bug": "11",
+  "lines": 241,
+  "single_method": true,
+  "faulty": "density",
+  "faulty_ctor": false,
+  "candidates": {
+   "getExponentTerm": [
+    "callee"
+   ]
+  }
+ },
+ "Math_12": {
+  "project": "Math",
+  "bug": "12",
+  "lines": 171,
+  "single_method": false
+ },
+ "Math_13": {
+  "project": "Math",
+  "bug": "13",
+  "lines": 566,
+  "single_method": true,
+  "faulty": "squareRoot",
+  "faulty_ctor": false,
+  "candidates": {
+   "optimize": [
+    "stack"
+   ],
+   "optimizeInternal": [
+    "stack"
+   ],
+   "setUp": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Math_15": {
+  "project": "Math",
+  "bug": "15",
+  "lines": 3866,
+  "single_method": false
+ },
+ "Math_16": {
+  "project": "Math",
+  "bug": "16",
+  "lines": 3846,
+  "single_method": false
+ },
+ "Math_17": {
+  "project": "Math",
+  "bug": "17",
+  "lines": 2503,
+  "single_method": true,
+  "faulty": "multiply",
+  "faulty_ctor": false,
+  "candidates": {
+   "remainder": [
+    "caller"
+   ],
+   "multiplyFast": [
+    "callee"
+   ]
+  }
+ },
+ "Math_18": {
+  "project": "Math",
+  "bug": "18",
+  "lines": 1384,
+  "single_method": false
+ },
+ "Math_19": {
+  "project": "Math",
+  "bug": "19",
+  "lines": 1369,
+  "single_method": true,
+  "faulty": "checkParameters",
+  "faulty_ctor": false,
+  "candidates": {
+   "doOptimize": [
+    "caller",
+    "stack"
+   ],
+   "value": [
+    "stack"
+   ]
+  }
+ },
+ "Math_20": {
+  "project": "Math",
+  "bug": "20",
+  "lines": 1360,
+  "single_method": true,
+  "faulty": "repairAndDecode",
+  "faulty_ctor": false,
+  "candidates": {
+   "decode": [
+    "callee"
+   ]
+  }
+ },
+ "Math_21": {
+  "project": "Math",
+  "bug": "21",
+  "lines": 175,
+  "single_method": true,
+  "faulty": "RectangularCholeskyDecomposition",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Math_23": {
+  "project": "Math",
+  "bug": "23",
+  "lines": 311,
+  "single_method": true,
+  "faulty": "doOptimize",
+  "faulty_ctor": false,
+  "candidates": {
+   "best": [
+    "callee"
+   ]
+  }
+ },
+ "Math_24": {
+  "project": "Math",
+  "bug": "24",
+  "lines": 300,
+  "single_method": true,
+  "faulty": "doOptimize",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_25": {
+  "project": "Math",
+  "bug": "25",
+  "lines": 360,
+  "single_method": true,
+  "faulty": "guessAOmega",
+  "faulty_ctor": false,
+  "candidates": {
+   "guess": [
+    "caller"
+   ]
+  }
+ },
+ "Math_26": {
+  "project": "Math",
+  "bug": "26",
+  "lines": 667,
+  "single_method": true,
+  "faulty": "Fraction",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Math_27": {
+  "project": "Math",
+  "bug": "27",
+  "lines": 667,
+  "single_method": true,
+  "faulty": "percentageValue",
+  "faulty_ctor": false,
+  "candidates": {
+   "doubleValue": [
+    "callee"
+   ],
+   "multiply": [
+    "callee"
+   ]
+  }
+ },
+ "Math_28": {
+  "project": "Math",
+  "bug": "28",
+  "lines": 233,
+  "single_method": true,
+  "faulty": "getPivotRow",
+  "faulty_ctor": false,
+  "candidates": {
+   "doIteration": [
+    "caller",
+    "stack"
+   ],
+   "doOptimize": [
+    "stack"
+   ]
+  }
+ },
+ "Math_29": {
+  "project": "Math",
+  "bug": "29",
+  "lines": 834,
+  "single_method": false
+ },
+ "Math_30": {
+  "project": "Math",
+  "bug": "30",
+  "lines": 235,
+  "single_method": true,
+  "faulty": "calculateAsymptoticPValue",
+  "faulty_ctor": false,
+  "candidates": {
+   "mannWhitneyUTest": [
+    "caller"
+   ]
+  }
+ },
+ "Math_31": {
+  "project": "Math",
+  "bug": "31",
+  "lines": 202,
+  "single_method": true,
+  "faulty": "evaluate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_32": {
+  "project": "Math",
+  "bug": "32",
+  "lines": 475,
+  "single_method": true,
+  "faulty": "computeGeometricalProperties",
+  "faulty_ctor": false,
+  "candidates": {
+   "getVertices": [
+    "callee"
+   ]
+  }
+ },
+ "Math_33": {
+  "project": "Math",
+  "bug": "33",
+  "lines": 624,
+  "single_method": true,
+  "faulty": "dropPhase1Objective",
+  "faulty_ctor": false,
+  "candidates": {
+   "getBasicRow": [
+    "callee"
+   ]
+  }
+ },
+ "Math_34": {
+  "project": "Math",
+  "bug": "34",
+  "lines": 212,
+  "single_method": true,
+  "faulty": "iterator",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_35": {
+  "project": "Math",
+  "bug": "35",
+  "lines": 113,
+  "single_method": false
+ },
+ "Math_36": {
+  "project": "Math",
+  "bug": "36",
+  "lines": 1134,
+  "single_method": false
+ },
+ "Math_37": {
+  "project": "Math",
+  "bug": "37",
+  "lines": 1222,
+  "single_method": false
+ },
+ "Math_38": {
+  "project": "Math",
+  "bug": "38",
+  "lines": 2483,
+  "single_method": true,
+  "faulty": "prelim",
+  "faulty_ctor": false,
+  "candidates": {
+   "doOptimize": [
+    "stack"
+   ],
+   "bobyqa": [
+    "stack"
+   ],
+   "bobyqb": [
+    "caller",
+    "stack"
+   ],
+   "printMethod": [
+    "callee"
+   ]
+  }
+ },
+ "Math_39": {
+  "project": "Math",
+  "bug": "39",
+  "lines": 370,
+  "single_method": true,
+  "faulty": "integrate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_40": {
+  "project": "Math",
+  "bug": "40",
+  "lines": 398,
+  "single_method": true,
+  "faulty": "doSolve",
+  "faulty_ctor": false,
+  "candidates": {
+   "guessX": [
+    "callee"
+   ],
+   "solve": [
+    "stack"
+   ]
+  }
+ },
+ "Math_41": {
+  "project": "Math",
+  "bug": "41",
+  "lines": 621,
+  "single_method": true,
+  "faulty": "evaluate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_42": {
+  "project": "Math",
+  "bug": "42",
+  "lines": 622,
+  "single_method": true,
+  "faulty": "getSolution",
+  "faulty_ctor": false,
+  "candidates": {
+   "getBasicRow": [
+    "callee"
+   ],
+   "getEntry": [
+    "callee"
+   ]
+  }
+ },
+ "Math_43": {
+  "project": "Math",
+  "bug": "43",
+  "lines": 741,
+  "single_method": true,
+  "faulty": "addValue",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_44": {
+  "project": "Math",
+  "bug": "44",
+  "lines": 395,
+  "single_method": true,
+  "faulty": "acceptStep",
+  "faulty_ctor": false,
+  "candidates": {
+   "integrate": [
+    "stack"
+   ],
+   "computeDerivatives": [
+    "callee"
+   ]
+  }
+ },
+ "Math_45": {
+  "project": "Math",
+  "bug": "45",
+  "lines": 274,
+  "single_method": true,
+  "faulty": "OpenMapRealMatrix",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Math_46": {
+  "project": "Math",
+  "bug": "46",
+  "lines": 1186,
+  "single_method": false
+ },
+ "Math_47": {
+  "project": "Math",
+  "bug": "47",
+  "lines": 1182,
+  "single_method": false
+ },
+ "Math_48": {
+  "project": "Math",
+  "bug": "48",
+  "lines": 270,
+  "single_method": true,
+  "faulty": "doSolve",
+  "faulty_ctor": false,
+  "candidates": {
+   "solve": [
+    "stack"
+   ]
+  }
+ },
+ "Math_49": {
+  "project": "Math",
+  "bug": "49",
+  "lines": 926,
+  "single_method": false
+ },
+ "Math_50": {
+  "project": "Math",
+  "bug": "50",
+  "lines": 272,
+  "single_method": true,
+  "faulty": "doSolve",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_51": {
+  "project": "Math",
+  "bug": "51",
+  "lines": 266,
+  "single_method": true,
+  "faulty": "doSolve",
+  "faulty_ctor": false,
+  "candidates": {
+   "solve": [
+    "stack"
+   ]
+  }
+ },
+ "Math_52": {
+  "project": "Math",
+  "bug": "52",
+  "lines": 1032,
+  "single_method": true,
+  "faulty": "Rotation",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Math_53": {
+  "project": "Math",
+  "bug": "53",
+  "lines": 1021,
+  "single_method": true,
+  "faulty": "add",
+  "faulty_ctor": false,
+  "candidates": {
+   "acos": [
+    "caller"
+   ],
+   "asin": [
+    "caller"
+   ],
+   "atan": [
+    "caller"
+   ],
+   "createComplex": [
+    "callee"
+   ]
+  }
+ },
+ "Math_54": {
+  "project": "Math",
+  "bug": "54",
+  "lines": 2401,
+  "single_method": false
+ },
+ "Math_55": {
+  "project": "Math",
+  "bug": "55",
+  "lines": 546,
+  "single_method": true,
+  "faulty": "crossProduct",
+  "faulty_ctor": false,
+  "candidates": {
+   "angle": [
+    "caller"
+   ]
+  }
+ },
+ "Math_56": {
+  "project": "Math",
+  "bug": "56",
+  "lines": 304,
+  "single_method": true,
+  "faulty": "getCounts",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_57": {
+  "project": "Math",
+  "bug": "57",
+  "lines": 334,
+  "single_method": true,
+  "faulty": "chooseInitialCenters",
+  "faulty_ctor": false,
+  "candidates": {
+   "cluster": [
+    "caller"
+   ],
+   "getNearestCluster": [
+    "callee"
+   ]
+  }
+ },
+ "Math_58": {
+  "project": "Math",
+  "bug": "58",
+  "lines": 337,
+  "single_method": true,
+  "faulty": "fit",
+  "faulty_ctor": false,
+  "candidates": {
+   "guess": [
+    "callee"
+   ]
+  }
+ },
+ "Math_59": {
+  "project": "Math",
+  "bug": "59",
+  "lines": 3495,
+  "single_method": true,
+  "faulty": "max",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_60": {
+  "project": "Math",
+  "bug": "60",
+  "lines": 254,
+  "single_method": true,
+  "faulty": "cumulativeProbability",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_61": {
+  "project": "Math",
+  "bug": "61",
+  "lines": 242,
+  "single_method": true,
+  "faulty": "PoissonDistributionImpl",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Math_62": {
+  "project": "Math",
+  "bug": "62",
+  "lines": 207,
+  "single_method": false
+ },
+ "Math_63": {
+  "project": "Math",
+  "bug": "63",
+  "lines": 1987,
+  "single_method": true,
+  "faulty": "equals",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_64": {
+  "project": "Math",
+  "bug": "64",
+  "lines": 873,
+  "single_method": true,
+  "faulty": "doOptimize",
+  "faulty_ctor": false,
+  "candidates": {
+   "determineLMParameter": [
+    "callee"
+   ],
+   "qrDecomposition": [
+    "callee"
+   ],
+   "qTy": [
+    "callee"
+   ]
+  }
+ },
+ "Math_65": {
+  "project": "Math",
+  "bug": "65",
+  "lines": 372,
+  "single_method": false
+ },
+ "Math_66": {
+  "project": "Math",
+  "bug": "66",
+  "lines": 246,
+  "single_method": false
+ },
+ "Math_67": {
+  "project": "Math",
+  "bug": "67",
+  "lines": 319,
+  "single_method": false
+ },
+ "Math_68": {
+  "project": "Math",
+  "bug": "68",
+  "lines": 854,
+  "single_method": false
+ },
+ "Math_69": {
+  "project": "Math",
+  "bug": "69",
+  "lines": 282,
+  "single_method": true,
+  "faulty": "getCorrelationPValues",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_70": {
+  "project": "Math",
+  "bug": "70",
+  "lines": 110,
+  "single_method": true,
+  "faulty": "solve",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_72": {
+  "project": "Math",
+  "bug": "72",
+  "lines": 320,
+  "single_method": true,
+  "faulty": "solve",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_73": {
+  "project": "Math",
+  "bug": "73",
+  "lines": 316,
+  "single_method": true,
+  "faulty": "solve",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_74": {
+  "project": "Math",
+  "bug": "74",
+  "lines": 401,
+  "single_method": true,
+  "faulty": "integrate",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_75": {
+  "project": "Math",
+  "bug": "75",
+  "lines": 594,
+  "single_method": true,
+  "faulty": "getPct",
+  "faulty_ctor": false,
+  "candidates": {
+   "toString": [
+    "caller"
+   ],
+   "getCumPct": [
+    "callee"
+   ]
+  }
+ },
+ "Math_76": {
+  "project": "Math",
+  "bug": "76",
+  "lines": 439,
+  "single_method": false
+ },
+ "Math_78": {
+  "project": "Math",
+  "bug": "78",
+  "lines": 335,
+  "single_method": true,
+  "faulty": "evaluateStep",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_79": {
+  "project": "Math",
+  "bug": "79",
+  "lines": 1664,
+  "single_method": true,
+  "faulty": "distance",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_80": {
+  "project": "Math",
+  "bug": "80",
+  "lines": 1844,
+  "single_method": true,
+  "faulty": "flipIfWarranted",
+  "faulty_ctor": false,
+  "candidates": {
+   "processGeneralBlock": [
+    "caller"
+   ],
+   "goodStep": [
+    "caller"
+   ]
+  }
+ },
+ "Math_81": {
+  "project": "Math",
+  "bug": "81",
+  "lines": 1843,
+  "single_method": false
+ },
+ "Math_82": {
+  "project": "Math",
+  "bug": "82",
+  "lines": 197,
+  "single_method": true,
+  "faulty": "getPivotRow",
+  "faulty_ctor": false,
+  "candidates": {
+   "doIteration": [
+    "caller"
+   ]
+  }
+ },
+ "Math_83": {
+  "project": "Math",
+  "bug": "83",
+  "lines": 573,
+  "single_method": false
+ },
+ "Math_84": {
+  "project": "Math",
+  "bug": "84",
+  "lines": 137,
+  "single_method": true,
+  "faulty": "iterateSimplex",
+  "faulty_ctor": false,
+  "candidates": {
+   "evaluateNewSimplex": [
+    "callee"
+   ]
+  }
+ },
+ "Math_85": {
+  "project": "Math",
+  "bug": "85",
+  "lines": 242,
+  "single_method": true,
+  "faulty": "bracket",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_86": {
+  "project": "Math",
+  "bug": "86",
+  "lines": 355,
+  "single_method": true,
+  "faulty": "CholeskyDecompositionImpl",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Math_87": {
+  "project": "Math",
+  "bug": "87",
+  "lines": 550,
+  "single_method": true,
+  "faulty": "getBasicRow",
+  "faulty_ctor": false,
+  "candidates": {
+   "initialize": [
+    "caller"
+   ],
+   "getSolution": [
+    "caller"
+   ],
+   "getEntry": [
+    "callee"
+   ]
+  }
+ },
+ "Math_88": {
+  "project": "Math",
+  "bug": "88",
+  "lines": 551,
+  "single_method": true,
+  "faulty": "getSolution",
+  "faulty_ctor": false,
+  "candidates": {
+   "getBasicRow": [
+    "callee"
+   ],
+   "getEntry": [
+    "callee"
+   ]
+  }
+ },
+ "Math_89": {
+  "project": "Math",
+  "bug": "89",
+  "lines": 491,
+  "single_method": true,
+  "faulty": "addValue",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_90": {
+  "project": "Math",
+  "bug": "90",
+  "lines": 488,
+  "single_method": true,
+  "faulty": "addValue",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_91": {
+  "project": "Math",
+  "bug": "91",
+  "lines": 550,
+  "single_method": true,
+  "faulty": "compareTo",
+  "faulty_ctor": false,
+  "candidates": {
+   "doubleValue": [
+    "callee"
+   ]
+  }
+ },
+ "Math_92": {
+  "project": "Math",
+  "bug": "92",
+  "lines": 1119,
+  "single_method": false
+ },
+ "Math_93": {
+  "project": "Math",
+  "bug": "93",
+  "lines": 1077,
+  "single_method": false
+ },
+ "Math_94": {
+  "project": "Math",
+  "bug": "94",
+  "lines": 1071,
+  "single_method": true,
+  "faulty": "gcd",
+  "faulty_ctor": false,
+  "candidates": {
+   "lcm": [
+    "caller"
+   ]
+  }
+ },
+ "Math_95": {
+  "project": "Math",
+  "bug": "95",
+  "lines": 195,
+  "single_method": true,
+  "faulty": "getInitialDomain",
+  "faulty_ctor": false,
+  "candidates": {
+   "inverseCumulativeProbability": [
+    "stack"
+   ]
+  }
+ },
+ "Math_96": {
+  "project": "Math",
+  "bug": "96",
+  "lines": 875,
+  "single_method": true,
+  "faulty": "equals",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_97": {
+  "project": "Math",
+  "bug": "97",
+  "lines": 266,
+  "single_method": true,
+  "faulty": "solve",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_99": {
+  "project": "Math",
+  "bug": "99",
+  "lines": 1221,
+  "single_method": false
+ },
+ "Math_100": {
+  "project": "Math",
+  "bug": "100",
+  "lines": 301,
+  "single_method": false
+ },
+ "Math_101": {
+  "project": "Math",
+  "bug": "101",
+  "lines": 543,
+  "single_method": true,
+  "faulty": "parse",
+  "faulty_ctor": false,
+  "candidates": {
+   "parseAndIgnoreWhitespace": [
+    "callee"
+   ],
+   "parseNextCharacter": [
+    "callee"
+   ],
+   "parseNumber": [
+    "callee"
+   ],
+   "parseObject": [
+    "caller"
+   ]
+  }
+ },
+ "Math_102": {
+  "project": "Math",
+  "bug": "102",
+  "lines": 405,
+  "single_method": true,
+  "faulty": "chiSquare",
+  "faulty_ctor": false,
+  "candidates": {
+   "chiSquareTest": [
+    "caller"
+   ],
+   "isPositive": [
+    "callee"
+   ],
+   "isNonNegative": [
+    "callee"
+   ]
+  }
+ },
+ "Math_103": {
+  "project": "Math",
+  "bug": "103",
+  "lines": 202,
+  "single_method": true,
+  "faulty": "cumulativeProbability",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Math_104": {
+  "project": "Math",
+  "bug": "104",
+  "lines": 263,
+  "single_method": false
+ },
+ "Math_105": {
+  "project": "Math",
+  "bug": "105",
+  "lines": 520,
+  "single_method": true,
+  "faulty": "getSumSquaredErrors",
+  "faulty_ctor": false,
+  "candidates": {
+   "getMeanSquareError": [
+    "caller"
+   ],
+   "getRSquare": [
+    "caller"
+   ]
+  }
+ },
+ "Math_106": {
+  "project": "Math",
+  "bug": "106",
+  "lines": 222,
+  "single_method": true,
+  "faulty": "parse",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Mockito_1": {
+  "project": "Mockito",
+  "bug": "1",
+  "lines": 177,
+  "single_method": true,
+  "faulty": "captureArgumentsFrom",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Mockito_2": {
+  "project": "Mockito",
+  "bug": "2",
+  "lines": 29,
+  "single_method": false
+ },
+ "Mockito_3": {
+  "project": "Mockito",
+  "bug": "3",
+  "lines": 152,
+  "single_method": false
+ },
+ "Mockito_4": {
+  "project": "Mockito",
+  "bug": "4",
+  "lines": 802,
+  "single_method": false
+ },
+ "Mockito_5": {
+  "project": "Mockito",
+  "bug": "5",
+  "lines": 135,
+  "single_method": true,
+  "faulty": "verify",
+  "faulty_ctor": false,
+  "candidates": {
+   "handleVerifyException": [
+    "callee"
+   ]
+  }
+ },
+ "Mockito_6": {
+  "project": "Mockito",
+  "bug": "6",
+  "lines": 882,
+  "single_method": false
+ },
+ "Mockito_7": {
+  "project": "Mockito",
+  "bug": "7",
+  "lines": 627,
+  "single_method": true,
+  "faulty": "readTypeVariables",
+  "faulty_ctor": false,
+  "candidates": {
+   "registerTypeVariablesOn": [
+    "callee"
+   ],
+   "getActualTypeArgumentFor": [
+    "callee"
+   ],
+   "rawType": [
+    "stack"
+   ],
+   "extractRawTypeOf": [
+    "stack"
+   ]
+  }
+ },
+ "Mockito_8": {
+  "project": "Mockito",
+  "bug": "8",
+  "lines": 627,
+  "single_method": true,
+  "faulty": "registerTypeVariablesOn",
+  "faulty_ctor": false,
+  "candidates": {
+   "boundsOf": [
+    "callee"
+   ],
+   "getActualTypeArgumentFor": [
+    "stack"
+   ],
+   "readActualTypeParametersOnDeclaringClass": [
+    "caller"
+   ],
+   "readActualTypeParameters": [
+    "caller"
+   ],
+   "readTypeVariables": [
+    "caller"
+   ]
+  }
+ },
+ "Mockito_9": {
+  "project": "Mockito",
+  "bug": "9",
+  "lines": 38,
+  "single_method": true,
+  "faulty": "answer",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Mockito_10": {
+  "project": "Mockito",
+  "bug": "10",
+  "lines": 163,
+  "single_method": false
+ },
+ "Mockito_11": {
+  "project": "Mockito",
+  "bug": "11",
+  "lines": 62,
+  "single_method": false
+ },
+ "Mockito_12": {
+  "project": "Mockito",
+  "bug": "12",
+  "lines": 27,
+  "single_method": true,
+  "faulty": "getGenericType",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Mockito_13": {
+  "project": "Mockito",
+  "bug": "13",
+  "lines": 124,
+  "single_method": true,
+  "faulty": "handle",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Mockito_15": {
+  "project": "Mockito",
+  "bug": "15",
+  "lines": 42,
+  "single_method": true,
+  "faulty": "thenInject",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Mockito_18": {
+  "project": "Mockito",
+  "bug": "18",
+  "lines": 121,
+  "single_method": true,
+  "faulty": "returnValueFor",
+  "faulty_ctor": false,
+  "candidates": {
+   "answer": [
+    "caller"
+   ]
+  }
+ },
+ "Mockito_20": {
+  "project": "Mockito",
+  "bug": "20",
+  "lines": 110,
+  "single_method": true,
+  "faulty": "createMock",
+  "faulty_ctor": false,
+  "candidates": {
+   "ensureMockIsAssignableToMockedType": [
+    "callee"
+   ],
+   "describeClass": [
+    "callee"
+   ],
+   "asInternalMockHandler": [
+    "callee"
+   ]
+  }
+ },
+ "Mockito_21": {
+  "project": "Mockito",
+  "bug": "21",
+  "lines": 46,
+  "single_method": false
+ },
+ "Mockito_22": {
+  "project": "Mockito",
+  "bug": "22",
+  "lines": 41,
+  "single_method": true,
+  "faulty": "areEqual",
+  "faulty_ctor": false,
+  "candidates": {
+   "areArraysEqual": [
+    "callee"
+   ],
+   "areArrayElementsEqual": [
+    "caller"
+   ],
+   "isArray": [
+    "callee"
+   ]
+  }
+ },
+ "Mockito_23": {
+  "project": "Mockito",
+  "bug": "23",
+  "lines": 131,
+  "single_method": false
+ },
+ "Mockito_24": {
+  "project": "Mockito",
+  "bug": "24",
+  "lines": 123,
+  "single_method": true,
+  "faulty": "answer",
+  "faulty_ctor": false,
+  "candidates": {
+   "returnValueFor": [
+    "callee"
+   ]
+  }
+ },
+ "Mockito_25": {
+  "project": "Mockito",
+  "bug": "25",
+  "lines": 99,
+  "single_method": false
+ },
+ "Mockito_26": {
+  "project": "Mockito",
+  "bug": "26",
+  "lines": 68,
+  "single_method": false
+ },
+ "Mockito_27": {
+  "project": "Mockito",
+  "bug": "27",
+  "lines": 111,
+  "single_method": true,
+  "faulty": "resetMock",
+  "faulty_ctor": false,
+  "candidates": {
+   "getMockHandler": [
+    "callee"
+   ]
+  }
+ },
+ "Mockito_28": {
+  "project": "Mockito",
+  "bug": "28",
+  "lines": 104,
+  "single_method": true,
+  "faulty": "injectMockCandidate",
+  "faulty_ctor": false,
+  "candidates": {
+   "injectMocksOnFields": [
+    "caller"
+   ],
+   "orderedInstanceFieldsFrom": [
+    "callee"
+   ]
+  }
+ },
+ "Mockito_29": {
+  "project": "Mockito",
+  "bug": "29",
+  "lines": 42,
+  "single_method": true,
+  "faulty": "describeTo",
+  "faulty_ctor": false,
+  "candidates": {
+   "appendQuoting": [
+    "callee"
+   ]
+  }
+ },
+ "Mockito_31": {
+  "project": "Mockito",
+  "bug": "31",
+  "lines": 78,
+  "single_method": true,
+  "faulty": "formatMethodCall",
+  "faulty_ctor": false,
+  "candidates": {
+   "intercept": [
+    "caller"
+   ]
+  }
+ },
+ "Mockito_32": {
+  "project": "Mockito",
+  "bug": "32",
+  "lines": 69,
+  "single_method": true,
+  "faulty": "process",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Mockito_33": {
+  "project": "Mockito",
+  "bug": "33",
+  "lines": 129,
+  "single_method": true,
+  "faulty": "hasSameMethod",
+  "faulty_ctor": false,
+  "candidates": {
+   "matches": [
+    "caller"
+   ],
+   "hasSimilarMethod": [
+    "caller"
+   ]
+  }
+ },
+ "Mockito_34": {
+  "project": "Mockito",
+  "bug": "34",
+  "lines": 112,
+  "single_method": true,
+  "faulty": "captureArgumentsFrom",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Mockito_35": {
+  "project": "Mockito",
+  "bug": "35",
+  "lines": 719,
+  "single_method": false
+ },
+ "Mockito_36": {
+  "project": "Mockito",
+  "bug": "36",
+  "lines": 217,
+  "single_method": true,
+  "faulty": "callRealMethod",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Mockito_37": {
+  "project": "Mockito",
+  "bug": "37",
+  "lines": 65,
+  "single_method": false
+ },
+ "Mockito_38": {
+  "project": "Mockito",
+  "bug": "38",
+  "lines": 51,
+  "single_method": true,
+  "faulty": "toStringEquals",
+  "faulty_ctor": false,
+  "candidates": {
+   "getSuspiciouslyNotMatchingArgsIndexes": [
+    "caller",
+    "stack"
+   ]
+  }
+ },
+ "Time_3": {
+  "project": "Time",
+  "bug": "3",
+  "lines": 1467,
+  "single_method": false
+ },
+ "Time_4": {
+  "project": "Time",
+  "bug": "4",
+  "lines": 999,
+  "single_method": true,
+  "faulty": "with",
+  "faulty_ctor": false,
+  "candidates": {
+   "getValue": [
+    "callee"
+   ]
+  }
+ },
+ "Time_5": {
+  "project": "Time",
+  "bug": "5",
+  "lines": 1641,
+  "single_method": true,
+  "faulty": "normalizedStandard",
+  "faulty_ctor": false,
+  "candidates": {
+   "withYears": [
+    "stack"
+   ]
+  }
+ },
+ "Time_6": {
+  "project": "Time",
+  "bug": "6",
+  "lines": 1116,
+  "single_method": false
+ },
+ "Time_7": {
+  "project": "Time",
+  "bug": "7",
+  "lines": 954,
+  "single_method": true,
+  "faulty": "parseInto",
+  "faulty_ctor": false,
+  "candidates": {
+   "requireParser": [
+    "callee"
+   ],
+   "selectChronology": [
+    "callee"
+   ]
+  }
+ },
+ "Time_8": {
+  "project": "Time",
+  "bug": "8",
+  "lines": 1325,
+  "single_method": true,
+  "faulty": "forOffsetHoursMinutes",
+  "faulty_ctor": false,
+  "candidates": {
+   "forOffsetHours": [
+    "caller"
+   ],
+   "forOffsetMillis": [
+    "callee"
+   ]
+  }
+ },
+ "Time_9": {
+  "project": "Time",
+  "bug": "9",
+  "lines": 1300,
+  "single_method": false
+ },
+ "Time_10": {
+  "project": "Time",
+  "bug": "10",
+  "lines": 346,
+  "single_method": false
+ },
+ "Time_11": {
+  "project": "Time",
+  "bug": "11",
+  "lines": 849,
+  "single_method": false
+ },
+ "Time_13": {
+  "project": "Time",
+  "bug": "13",
+  "lines": 1869,
+  "single_method": false
+ },
+ "Time_14": {
+  "project": "Time",
+  "bug": "14",
+  "lines": 362,
+  "single_method": true,
+  "faulty": "add",
+  "faulty_ctor": false,
+  "candidates": {
+   "set": [
+    "callee"
+   ]
+  }
+ },
+ "Time_15": {
+  "project": "Time",
+  "bug": "15",
+  "lines": 328,
+  "single_method": true,
+  "faulty": "safeMultiply",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Time_16": {
+  "project": "Time",
+  "bug": "16",
+  "lines": 950,
+  "single_method": true,
+  "faulty": "parseInto",
+  "faulty_ctor": false,
+  "candidates": {
+   "requireParser": [
+    "callee"
+   ],
+   "selectChronology": [
+    "callee"
+   ]
+  }
+ },
+ "Time_17": {
+  "project": "Time",
+  "bug": "17",
+  "lines": 1289,
+  "single_method": true,
+  "faulty": "adjustOffset",
+  "faulty_ctor": false,
+  "candidates": {
+   "convertUTCToLocal": [
+    "callee"
+   ],
+   "convertLocalToUTC": [
+    "callee"
+   ]
+  }
+ },
+ "Time_18": {
+  "project": "Time",
+  "bug": "18",
+  "lines": 1093,
+  "single_method": true,
+  "faulty": "getDateTimeMillis",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Time_19": {
+  "project": "Time",
+  "bug": "19",
+  "lines": 1279,
+  "single_method": true,
+  "faulty": "getOffsetFromLocal",
+  "faulty_ctor": false,
+  "candidates": {
+   "getOffset": [
+    "callee"
+   ]
+  }
+ },
+ "Time_20": {
+  "project": "Time",
+  "bug": "20",
+  "lines": 2824,
+  "single_method": true,
+  "faulty": "parseInto",
+  "faulty_ctor": false,
+  "candidates": {}
+ },
+ "Time_22": {
+  "project": "Time",
+  "bug": "22",
+  "lines": 621,
+  "single_method": true,
+  "faulty": "BasePeriod",
+  "faulty_ctor": true,
+  "candidates": {}
+ },
+ "Time_23": {
+  "project": "Time",
+  "bug": "23",
+  "lines": 1278,
+  "single_method": true,
+  "faulty": "getConvertedId",
+  "faulty_ctor": false,
+  "candidates": {
+   "forTimeZone": [
+    "caller"
+   ]
+  }
+ },
+ "Time_24": {
+  "project": "Time",
+  "bug": "24",
+  "lines": 506,
+  "single_method": true,
+  "faulty": "computeMillis",
+  "faulty_ctor": false,
+  "candidates": {
+   "saveField": [
+    "callee"
+   ],
+   "sort": [
+    "callee"
+   ],
+   "set": [
+    "callee"
+   ],
+   "compareReverse": [
+    "callee"
+   ]
+  }
+ },
+ "Time_25": {
+  "project": "Time",
+  "bug": "25",
+  "lines": 1251,
+  "single_method": true,
+  "faulty": "getOffsetFromLocal",
+  "faulty_ctor": false,
+  "candidates": {
+   "getOffset": [
+    "callee"
+   ]
+  }
+ },
+ "Time_27": {
+  "project": "Time",
+  "bug": "27",
+  "lines": 1867,
+  "single_method": true,
+  "faulty": "toFormatter",
+  "faulty_ctor": false,
+  "candidates": {
+   "createComposite": [
+    "callee"
+   ]
+  }
+ }
+}
