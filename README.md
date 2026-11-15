@@ -8,7 +8,6 @@ This repository contains the online appendix of the Registered Report *"I Feel Y
 Upon completion of the study, the repository will be organized as follows:
 
 ​```
-.
 ├── 🗂️ datasets/
 ├── 💬 prompts/
 ├── ⚙️ data_preparation/
