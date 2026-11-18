@@ -21,7 +21,7 @@ Upon completion of the study, the repository will be organized as follows:
 ### 🗂️ datasets/
 Will contain the datasets used in the study.
 - `codechat/` — the CodeChat conversations.
-- `defects4j/` — the faulty files of the selected Defects4J bugs, included in the requests submitted to the LLMUser.
+- `benchmark/` — the faulty files of the selected post-cutoff bugs.
 
 ### 💬 prompts/
 Will contain the prompts of the LLM-based components.
@@ -47,13 +47,3 @@ Will contain the Analyzer outputs, extracted emotional expressions, LLMUser resp
 Will contain the scripts used to answer the research questions.
 
 ---
-## ✅ Currently Available
-
-The repository contains the selection of the Defects4J bugs described in the *Data Preparation* section of the report.
-
-In [`data_preparation/bug_selection/`](data_preparation/bug_selection/):
-- `prepare_files.py` — reconstructs the faulty version of each Defects4J bug.
-- `select_bugs.py` — applies the three selection criteria, i.e., (i) the fix modifies a single method, (ii) the file includes at least one candidate incorrect cause, and (iii) the file does not exceed 3,000 lines.
-- `selected_bugs.csv` — the resulting **335 bugs from 16 projects**.
-
-In [`data_preparation/defects4j/`](data_preparation/defects4j/), the subset of Defects4J files used by the scripts.
