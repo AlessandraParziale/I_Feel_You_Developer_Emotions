@@ -31,8 +31,6 @@ Will contain the prompts of the LLM-based components.
 
 ### ⚙️ data_preparation/
 Contains the scripts used to prepare the data.
-- `bug_selection/` — selection of the Defects4J bugs.
-- Filtering of CodeChat  *(to be added)*.
 
 ### 📝 requests/
 Will contain the neutral requests and their emotional variants submitted to the LLMUser.
